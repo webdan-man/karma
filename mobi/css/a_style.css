@@ -12,6 +12,18 @@
 }
 @font-face {
     font-family: 'Amazing Grotesk';
+    src: url('../fonts/amazing_grotesk_demi-webfont.eot');
+    src: url('../fonts/amazing_grotesk_demi-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/amazing_grotesk_demi-webfont.woff2') format('woff2'),
+        url('../fonts/amazing_grotesk_demi-webfont.woff') format('woff'),
+        url('../fonts/amazing_grotesk_demi-webfont.ttf') format('truetype'),
+        url('../fonts/amazing_grotesk_demi-webfont.svg#amazing_groteskdemibold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Amazing Grotesk';
     src: url('../fonts/amazing_grotesk_ultra-webfont.eot');
     src: url('../fonts/amazing_grotesk_ultra-webfont.eot?#iefix') format('embedded-opentype'),
         url('../fonts/amazing_grotesk_ultra-webfont.woff2') format('woff2'),
@@ -26,11 +38,11 @@
    }
 :not(a):after,:not(a):before,:not(br):after,:not(br):before,:not(img):after,:not(img):before,:not(span):after,:not(span):before{content:" ";display:block;width:100%;height:0;clear:both}
 a:after,a:before,table:after,table:before,tr:after,tr:before,td:after,td:before,br:after,br:before,img:after,img:before,span:after,span:before{content:none}
-.wrap{position:relative;margin:0 auto;max-width: 480px;width:100%;min-width: 480px;height:100%;z-index: 2;text-align: center;}
+.wrap{position:relative;margin:0 auto;max-width:480px;width:100%;min-width: 480px; height:100%;z-index: 2;text-align: center;}
 .clear{clear:both}
-.section,section{width:100%;overflow:hidden;position:relative;z-index: 1;min-width: 480px;}
+.section,section{width:100%;overflow:hidden;position:relative;z-index: 1;min-width:480px;}
 h1,h2,h3,h4,h5{font-size:1em;font-weight:inherit;text-align:center}
-body{font-family:PFAgoraSlabPro,sans-serif;font-weight: 400;letter-spacing: 0.027em;font-family: 'Ubuntu', sans-serif;color: white;}
+body{font-weight: 400;letter-spacing: 0.027em;font-family: 'Ubuntu', sans-serif;color: white;}
 a{text-decoration:none;color:inherit;outline:0!important}
 
 #maket {
@@ -40,8 +52,8 @@ a{text-decoration:none;color:inherit;outline:0!important}
     opacity: 0.4;
     position: absolute;
     left: 0;
-    z-index: 4;
-    top: 0;
+    /* z-index: 8; */
+    top: 0px;
 }
 
 .sec1 {
@@ -93,7 +105,29 @@ p{text-align: left}
     line-height: 27px;
     letter-spacing: 1.8px;
 }
-
+.sec2 p {
+    color: #c9c9c9;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0 64px;
+    margin-top: 14px;
+    letter-spacing: 0.6px;
+}
+.btn_ml {
+    background: url(../img/btn_ml.png)no-repeat center, url(../img/shape.png)no-repeat right 34px center;
+    width: 299px;
+    height: 66px;
+    display: inline-block;
+    margin: 29px 0px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 64px;
+    text-align: left;
+    padding-left: 54px;
+    letter-spacing: 0.7px;
+}
 .fon_silver {
     background: url(../img/bg_silver.png)no-repeat top center;
     width: 769px;
@@ -157,9 +191,10 @@ p{text-align: left}
 }
 
 .foto {
-    width: 398px;
-    height: 497px;
-    margin-top: 26px
+    width: 318px;
+    height: 398px;
+    margin-top: 25px;
+    display: inline-block;
 }
 .fon_silver p:after {
     content: "";
@@ -172,34 +207,29 @@ p{text-align: left}
 }
 .sec3 {
     background: white;
-    height: 1100px;
-    padding-top: 58px
+    height: 800px;
+    padding-top: 35px;
 }
 
 .sec3 h2 {
-    font-size: 39px;
-    line-height: 47px;
+    font-size: 22px;
+    line-height: 30px;
     text-transform: uppercase;
     color: black;
-    text-align: left;
     margin-left: -2px;
-    letter-spacing: 2.3px
+    letter-spacing: 0.9px;
 }
 .fon_slider {
     background: url(../img/bg_slider.png)no-repeat top center;
-    width: 1003px;
-    margin-left: -98px;
-    margin-top: 81px;
-    padding-left: 97px;
+    margin-top: 19px;
 }
 .fon_slider h3 {
     font-family: "Amazing Grotesk";
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 600;
-    line-height: 47px;
-    text-align: left;
-    padding-top: 31px;
-    letter-spacing: 1.3px
+    line-height: 41px;
+    letter-spacing: 1.1px;
+    margin-top: 2px;
 }
 .klib_im1 {
     background: url(../img/klib_im1.jpg)no-repeat center;
@@ -274,20 +304,20 @@ p{text-align: left}
     background: url(../img/klib_him12.jpg)no-repeat center;
 }
 .klient_b {
-    width: 297px;
-    height: 384px;
-    margin-top: 22px;
-    margin-right: 78px;
+    width: 264px;
+    height: 370px;
+    margin-top: 23px;
+    display: inline-block;
 }
 .fon_slider p {
     font-family: "Amazing Grotesk";
     font-size: 16px;
     font-weight: 400;
-    line-height: 27px;
-    width: 440px;
-    margin-top: 15px;
-    height: 200px;
-    letter-spacing: 0.7px
+    line-height: 38px;
+    letter-spacing: 0.7px;
+    color: #4f4e4e;
+    padding: 25px 60px;
+    text-align: center;
 }
 .str {
     width: 36px;
@@ -302,28 +332,30 @@ p{text-align: left}
     background: url(../img/str_r.png)no-repeat center;
 }
 .str_slid1 {
-    width: 203px;
-    margin-top: 25px;
-    height: 51px;
+    width: 100%;
+    margin-top: 37px;
+    height: 18px;
     text-align: center;
+    display: inline-block;
+    font-size: 0;
 }
 .str_slid1 a {
     vertical-align: middle;
 }
 .sli {
-    width: 14px;
-    height: 14px;
-    background-color: #cdcdcd;
     border-radius: 7px;
     display: inline-block;
-    margin: 18px 3px;
+    margin: 3px 3px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid white;
 }
 .sli:hover {
-    width: 17px;
+    width: 18px;
     height: 18px;
-    background-color: #f4846a;
+    background: white;
     border-radius: 9px;
-    margin: 14px 1px;
+    margin: 1px 1px;
 }
 .klient_sgr {
     font-size: 0;
@@ -415,43 +447,46 @@ p{text-align: left}
 }
 .sec4 {
     background: url(../img/bg_sec4.jpg)no-repeat center;
-    height: 1100px;
-    padding-top: 76px;
+    height: 800px;
+    padding-top: 27px;
     font-size: 0;
 }
 .sec4 h2{
+    text-transform: none;
+    letter-spacing: 0.9px;
     color: black;
     font-family: "Amazing Grotesk";
-    font-size: 35px;
-    line-height: 35px;
-    text-transform: none;
-    letter-spacing: 1.4px;
-    margin-bottom: 48px
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 19px;
 }
 .log_gr {
     color: #6e6e6e;
     font-family: Ubuntu;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 400;
-    width: 300px;
     text-align: center;
-    line-height: 23px;
+    line-height: 28px;
     vertical-align: top;
-    display: inline-block;
     letter-spacing: 0.6px;
-    margin: 18px 13px 35px 13px;
+    margin: 24px 0px;
 }
 .log_gr a {
     color: black;
     font-family: "Amazing Grotesk";
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
-    letter-spacing: 0.8px
+    letter-spacing: 0.8px;
+    width: 100%;
+    display: inline-block;
+    /* margin-top: 33px; */
+    line-height: 25px;
 }
 .log_gr span {
     width: 100%;
-    height: 91px;
+    height: 84px;
     display: inline-block;
+    margin: 14px 0;
 }
 .log_im1 {
     background: url(../img/tatler-logo.png)no-repeat center;
@@ -515,14 +550,15 @@ p{text-align: left}
 }
 .sec5 {
     background: url(../img/bg_sec5.jpg)no-repeat top center;
-    height: 1100px;
-    padding-top: 87px;
+    height: 433px;
+    padding-top: 3%;
 }
 .sec5 h2 {
-    font-size: 34px;
-    line-height: 44px;
+    font-size: 22px;
+    line-height: 23px;
     text-transform: none;
-    letter-spacing: 2.0px
+    padding: 9% 100px;
+    letter-spacing: 2.0px;
 }
 .star_gr {
     width: 1077px;
@@ -534,11 +570,14 @@ p{text-align: left}
     z-index: 4;
 }
 .star  {
-    background: url(../img/star_im.png)no-repeat center;
-    width: 47px;
-    height: 47px;
-    z-index: 5;
-    position: relative;
+    
+    =: 85px
+    font-family: Ubuntu;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 9px 0px;
 }
 
 .star_p1 {
@@ -664,84 +703,79 @@ p{text-align: left}
 }
 .sec6 {
     background: url(../img/bg_sec6.jpg)no-repeat center;
-    height: 1100px;
-    padding-top: 82px;
+    height: 800px;
+    padding-top: 30px;
 }
 .sec6 h2 {
     color: black;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 31px;
     text-transform: none;
-    letter-spacing: 1.4px;
-    margin-bottom: 11px;
+    letter-spacing: 0.9px;
+    padding: 13px 0px;
 }
 .kou_gr {
     color: black;
     font-family: Ubuntu;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 35px;
-    text-align: center;
-    width: 434px;
-    padding-top: 104px;
-    margin-top: 84px;
-    letter-spacing: 0.9px;
-    height: 240px;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+    padding: 0px 15px;
+    margin: 27px 0;
 }
 
 .kou_im1 {
-    background: url(../img/kou_im1.png)no-repeat top center;
+    background: url(../img/kou_im1.png)no-repeat center 6px;
 }
 .kou_im2 {
-    background: url(../img/kou_im2.png)no-repeat top center;
-    margin-right: -53px
+    background: url(../img/kou_im2.png)no-repeat center 6px;
 }
 .kou_im3 {
-    background: url(../img/kou_im3.png)no-repeat top center;
+    background: url(../img/kou_im3.png)no-repeat center 6px;
 }
 .kou_im4 {
-    background: url(../img/kou_im4.png)no-repeat top center;
-    margin-right: -56px
+    background: url(../img/kou_im4.png)no-repeat center 6px;
 }
 .sec7 {
-    background: url(../img/bg_sec7.jpg)no-repeat center;
-    height: 1100px;
-    padding-top: 232px;  
+    background: url(../img/bg_sec7.jpg)no-repeat center 6px;
+    height: 800px;
+    padding-top: 27px;
 }
 .sec7 h2{
     color: black;
-    font-size: 34px;
+    font-size: 22px;
     line-height: 44px;
     text-transform: none;
-    letter-spacing: 2.0px;
+    letter-spacing: 0.9px;
+    padding: 11px 0px;
 } 
 .tur_gr {
     font-size: 0;
-    word-spacing: 9px;
-    margin-top: 32px;
+    word-spacing: 0px;
+    /* margin-top: 32px; */
 }
 
 .tur_t{
     color: black;
     font-family: Ubuntu;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 20px;
-    width: 320px;
+    line-height: 22px;
+    width: 48%;
     text-align: center;
     display: inline-block;
     vertical-align: top;
     letter-spacing: 0.8px;
     word-spacing: 0px;
-    margin: 4px 0px;
-    height: 178px
+    height: 165px;
+    margin-bottom: 20px;
 }
 
 .tur_t span {
     height: 84px;
-    width: 100%;
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .tur_im1 {
     background: url(../img/compass-im.png)no-repeat center;
@@ -766,58 +800,62 @@ p{text-align: left}
     width: 100%;
 }
 .lamp_gr {
-    background: url(../img/no_light.png)no-repeat top center,url(../img/lamp_fon.png)no-repeat top center;
-    width: 677px;
-    height: 190px;
-    margin-top: -14px;
+    width: 450px;
+    /* height: 121px; */
+    border: 3px solid black;
+    margin: 14px 0px;
     color: black;
     font-family: "Amazing Grotesk";
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 37px;
+    line-height: 25px;
     display: inline-block;
     text-align: center;
-    padding-top: 80px;
-    letter-spacing: 1.1px
+    padding: 32px 0px;
+    letter-spacing: 0.8px;
 }
-.lamp_gr:hover {
-    background: url(../img/yes_light.png)no-repeat top center,url(../img/lamp_fon.png)no-repeat top center;
-}
+
 
 .sec8 {
     background: url(../img/bg_sec8.jpg)no-repeat top center;
-    height: 1100px;
-    padding-top: 74px;
+    height: 800px;
+    margin-top: 7px;
+    padding-top: 36px;
 }
 .sec8 h2 {
-    font-size: 34px;
+    font-size: 22px;
     text-transform: none;
-    letter-spacing: 1.9px
+    line-height: 31px;
+    letter-spacing: 1.9px;
 }
 .sec8 h2 span {
+    display: inline-block;
+    margin-top: 11px;
+    letter-spacing: 0.9px;
     color: #8d8d8d;
     font-family: Ubuntu;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
-    display: inline-block;
-    margin-top: 15px;
-    letter-spacing: 1.3px
+    line-height: 25px;
+    padding: 0px 100px;
 }
 .tex {
-    width: 50%;
-    margin-top: 161px;
+    width: 100%;
+    margin-top: 103px;
+    letter-spacing: 29px;
+    padding: 0px 66px;
 }
 .tex h3 {
-    color: white;
-    font-family: "Amazing Grotesk";
-    font-size: 57px;
-    line-height: 47px;
-    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 21px;
     font-weight: 900;
-    text-align: left;
-    letter-spacing: 2.0px;
-    margin-bottom: 70px
+    color: #676767;
+    font-family: "Amazing Grotesk";
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: uppercase;
+    width: 45%;
+    display: inline-block;
 }
 .sec8 .right h3 {
     text-align: right;
@@ -828,56 +866,79 @@ p{text-align: left}
 .sec8 .left p {
     margin-left: -8px
 }
+.tex h3:hover {color:white}
+.tex h3 span{
+ width: 14px;
+ height: 14px;
+ border-radius: 7px;
+ border: 3px solid #676767;
+ display: inline-block;
+ cursor: pointer;
+}
+.tex h3:hover span {
+
+width: 14px;
+height: 14px;
+background-color: white;
+border: 3px solid white;
+}
 .tex p {
+    background: url(../img/done.png)no-repeat 0px 0px;
+    padding-left: 100px;
+    min-height: 68px;
+    letter-spacing: 0.7px;
+    margin-bottom: 36px;
     color: #afafaf;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
+    margin-top: 19px;
     line-height: 28px;
-    background: url(../img/done.png)no-repeat 0px 1px;
-    padding-left: 111px;
-    min-height: 68px;
-    letter-spacing: 0.8px;
-    margin-bottom: 73px;
+    display: inline-block;
 }
 .sec9 {
     background: url(../img/bg_sec9.jpg)no-repeat top center;
-    height: 1100px;
-    padding-top: 118px;
+    height: 501px;
+    /* padding-top: 118px; */
 }
 .sec9 h2 {
     color: black;
-    font-size: 35px;
-    line-height: 47px;
-    text-transform: uppercase;
-    letter-spacing: 1.4px
+    font-size: 21px;
+    line-height: 31px;
+    text-transform: none;
+    letter-spacing: 1.5px;
+    padding: 24px 100px;
+    font-weight: 900;
 }
 .sec9 .wrap{max-width: 1200px}
 .video {
-    background: url(../img/video.jpg)no-repeat center center;
-    height: 628px;
+    background: url(../img/video.jpg)no-repeat center;
+    height: 258px;
     width: 100%;
     position: relative;
-    margin-top: 105px
+    margin-bottom: 15px;
 }
 .play {
     color: white;
     font-family: "Amazing Grotesk";
-    font-size: 29px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 47px;
+    line-height: 43px;
     background: url(../img/play.png)no-repeat top center;
-    padding-top: 83px;
+    padding-top: 82px;
     position: absolute;
-    bottom: 249px;
-    right: 126px;
-    letter-spacing: 1.8px
+    letter-spacing: 1.8px;
+    top: 50%;
+    margin-top: -49px;
+    left: 50%;
+    margin-left: -91px;
 }
 
 .sec10 {
-    background: url(../img/bg_sec10.jpg)no-repeat center;
-    height: 1100px;
-    padding-top: 71px
+    padding-top: 50px;
+    width: 100%;
+    height: 562px;
+    background-color: #0d1924;
 }
 .sec10 h2 {
     color: black;
@@ -894,26 +955,23 @@ p{text-align: left}
     margin-top: 70px;
     letter-spacing: 1.3px
 }
-.form_gr{font-size: 0;
-letter-spacing: 292px}
+.form_gr{font-size: 0;}
 .form_gr a{
-    width: 270px;
-    height: 105px;
+    width: 350px;
+    height: 113px;
     border: 2px solid #fefefe;
     display: inline-block;
-    margin-top: 65px;
-    margin-bottom: 71px;
+    margin-bottom: -1px;
     color: #fefefe;
     font-family: Ubuntu;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 400;
-    line-height: 38px;
-    letter-spacing: 0px;
-    text-align: left;
-    padding-left: 26px;
-    padding-top: 10px;
+    line-height: 29px;
+    text-align: center;
+    padding-top: initial;
     vertical-align: top;
-    letter-spacing: 1.7px
+    letter-spacing: 1.7px;
+    padding: 23px 0px;
 }
 .form_gr a:hover{
     background-color: #fefefe;
@@ -922,19 +980,19 @@ letter-spacing: 292px}
 }
 .sec11 {
     background: url(../img/bg_sec11.jpg)no-repeat center;
-    height: 1100px;
-    padding-top: 97px
+    height: 543px;
+    /* padding-top: 97px; */
 }
 .sec11 h2{
-    font-size: 39px;
-    line-height: 43px;
+    font-size: 22px;
+    line-height: 31px;
     text-transform: none;
-    letter-spacing: 2.0px
+    letter-spacing: 0.9px;
+    margin: 31px 0px;
 }
 .vid_otz {
     background: url(../img/vid_otz.jpg)no-repeat top center;
-    height: 448px;
-    margin-top: 122px;
+    height: 270px;
     position: relative;
 }
 
@@ -969,19 +1027,18 @@ letter-spacing: 292px}
 }
 .sec11 h3 {
     font-family: "Amazing Grotesk";
-    font-size: 32px;
+    font-size: 17px;
     font-weight: 600;
-    line-height: 47px;
+    line-height: 28px;
     text-transform: uppercase;
     text-align: left;
-    margin-top: 75px;
-    padding-left: 174px;
-    letter-spacing: 2.6px
+    letter-spacing: 2.1px;
+    padding: 21px 96px;
 }
 .oval_gr {
-    margin-top: 69px;
     height: 16px;
     display: inline-block;
+    vertical-align: middle;
 }
 .oval_gr a {
     width: 8px;
@@ -991,38 +1048,36 @@ letter-spacing: 292px}
     display: inline-block;
     letter-spacing: 0px;
     border-radius: 4px;
-    margin: 0px 4px
+    margin: 4px 7px;
 }
 .oval_gr a:hover {
     width: 16px;
     height: 16px;
     border: 2px solid white;
     border-radius: 8px;
-    margin: 0px 0px
+    margin: 0px 3px;
+    background: 0;
 }
 .sec12 {
-    background: url(../img/bg_sec12.jpg)no-repeat center;
-    height: 1001px;
-    padding-top: 44px
+    background: white;
+    height: 670px;
 }
 
 .forma {
-    width: 569px;
-    height: 531px;
+    width: 100%;
+    /* height: 531px; */
     background-color: #f9f9f9;
     box-shadow: 0 0 68px rgba(0, 0, 0, 0.2);
     display: inline-block;
-    padding: 41px 65px 0px 65px;
-    
+    padding: 26px 45px;
 }
 .forma h3 {
-    color: black;
+    letter-spacing: 0.9px;
+    color: #010101;
     font-family: "Amazing Grotesk";
-    font-size: 35px;
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 31px;
     font-weight: 900;
-    text-align: left;
-    letter-spacing: 1.4px
 }
 .forma h3 span{
     color: black;
@@ -1031,30 +1086,31 @@ letter-spacing: 292px}
     font-weight: 400;
     line-height: 34px;
     display: inline-block;
-    padding-left: 35px;
-    margin-top: 14px;
+    margin-top: 17px;
+    width: 100%;
     letter-spacing: 0.8px;
+    text-align: center;
 }
 .forma form {
-    margin-top: 27px
+    margin-top: 36px;
 }
 form input {
-    width: 432px;
-    height: 47px;
+    width: 100%;
+    height: 57px;
     background-color: #ebebeb;
     border: 1px solid #cbcbcb;
-    margin-bottom: 18px;
+    margin-bottom: 34px;
     color: #6a6a6a;
     font-family: Ubuntu;
     font-size: 18px;
     font-weight: 300;
     line-height: 34px;
     padding-left: 28px;
-    letter-spacing: 0.7px
+    letter-spacing: 0.7px;
 }
 form textarea {
-    width: 432px;
-    height: 124px;
+    width: 100%;
+    height: 150px;
     background-color: #ebebeb;
     border: 1px solid #cbcbcb;
     color: #6a6a6a;
@@ -1097,15 +1153,17 @@ input::-moz-placeholder {
     letter-spacing: 1px;
     padding: 0;
     cursor: pointer;
+    margin-top: 19px;
 }
 .btn_f:hover {
     background: url(../img/btn_fh.png)no-repeat center;
 }
 footer {
-    background: #242529;
-    padding: 30px 0px
+    background: #2a2a2a;
+    width: 100%;
+    padding-bottom: 39px;
 }
-footer p {
+footer a {
     color: white;
     font-family: Roboto;
     font-size: 16px;
@@ -1116,19 +1174,22 @@ footer p {
     letter-spacing: 0.5px;
     margin-top: 6px
 }
-footer a {
+footer p {
     color: white;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     background: url(../img/gulf-logo.png)no-repeat right top;
-    float: right;
     min-height: 42px;
-    padding-right: 209px;
     letter-spacing: 0.7px;
-    padding-top: 5px;
-    margin-right: 16px;
+    display: inline-block;
+    float: right;
+    text-align: right;
+    padding-right: 237px;
+    margin-right: 65px;
+    margin-top: 6px;
+    padding-top: 10px;
 }
 #mak {
     width: 100%;
@@ -1142,13 +1203,12 @@ footer a {
 }
 
 .ved_p1 {
-    width: 980px;
-    height: 600px;
+    width: 100%;
+    height: 800px;
     background: white;
     text-align: center;
-    margin-top: 203px;
     position: relative;
-    padding: 41px 161px 41px 106px;
+    padding: 38px 30px 0px 68px;
 }
 
 .close {
@@ -1167,14 +1227,15 @@ footer a {
     text-align: left;
     text-transform: none;
     letter-spacing: 0.9px;
+    padding: 12px 0px;
 }
 .ved_p1 p {
     color: black;
     font-family: Ubuntu;
     font-size: 14px;
     font-weight: 400;
-    line-height: 23px;
-    margin-top: 22px;
+    line-height: 22px;
+    margin-top: 12px;
     letter-spacing: 0.6px;
 }
 
@@ -1359,13 +1420,17 @@ position: absolute;
 .back {
     color: black;
     font-family: Roboto;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 47px;
-    background: url(../img/back.png)no-repeat top center;
-    display: inline-block;
-    padding-top: 32px;
-    letter-spacing: 1.2px;
+    background: url(../img/back.png)no-repeat 0px 0px;
+    display: block;
+    letter-spacing: 0.3px;
+    min-height: 19px;
+    float: left;
+    padding-left: 51px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 34px;
 }
 .pop form {
     margin-top: 118px
@@ -1381,7 +1446,7 @@ position: absolute;
 }
 .wr_star {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: relative;
 }
 
@@ -1391,4 +1456,58 @@ position: absolute;
     left: 0;
     width: 100%;
     height: 100%;
+
+}
+
+.star span {
+    background: url(../img/star.png)no-repeat center;
+    min-height: 85px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 18px;
+}
+.line_star {
+    background: url(../img/line_star.png)repeat-y top center;
+    width: 100%;
+    min-height: 14px;
+    position: absolute;
+    top: 47.5%;
+}
+.str_slid2 {
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+    display: inline-block;
+    margin: 14px 0px;
+}
+.str_slid2 a {
+    vertical-align: middle;
+}
+.sli_s {
+    border-radius: 4px;
+    display: inline-block;
+    margin: 8px 7px;
+    background: white;
+    width: 8px;
+    height: 8px;
+    opacity: 0.43;
+}
+.sli_s:hover {
+    border-radius: 8px;
+    margin: 0px 3px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid white;
+}
+.kou_gr span {width: 80px;float: left;min-height: 97px;margin-right: 49px;}
+.logo_f{
+     background: url(../img/logo_min.png)no-repeat center;
+     width: 100%;
+     min-height: 72px;
+     margin: 26px 0px;
+     display: inline-block;
+}
+.bak {
+    background: url(../img/fon_fon.jpg)no-repeat top center;
+    height: 800px;
 }
