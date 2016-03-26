@@ -1,425 +1,315 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=480">
-    <title>KARMA</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/a_style.css">
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-</head>
-
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=480">
+ <title>KARMA</title>
+ <script type="text/javascript">if (screen.width > 699) {document.location = "../"+document.location.search;}</script>
+ <style>*{margin:0;padding:0;box-sizing:border-box;background-position:center;background-repeat:no-repeat}:not(a):after,:not(a):before,:not(br):after,:not(br):before,:not(img):after,:not(img):before,:not(span):after,:not(span):before{content:" ";display:block;width:100%;height:0;clear:both}a:after,a:before,br:after,br:before,img:after,img:before,span:after,span:before,table:after,table:before,td:after,td:before,tr:after,tr:before{content:none}.wrap{position:relative;margin:0 auto;max-width:480px;width:100%;min-width:480px;height:100%;z-index:2;text-align:center}.clear{clear:both}.section,section{width:100%;overflow:hidden;position:relative;z-index:1;min-width:480px}h1,h2,h3,h4,h5{font-size:1em;font-weight:inherit;text-align:center}body{font-weight:400;letter-spacing:.027em;font-family:Ubuntu,sans-serif;color:#fff}a{text-decoration:none;color:inherit;outline:0!important}.sec1{background:url(img/bg_sec1.jpg) no-repeat center;height:800px;padding-top:42px}.logo{background:url(img/logo.png) no-repeat top center;width:100%;height:56px;background-size:contain}h2{letter-spacing:2.9px;font-family:"Amazing Grotesk";text-transform:uppercase;font-weight:800}p{text-align:left}.sec1 h2{color:#000;margin-top:41px;letter-spacing:1px;font-size:21px;line-height:28px}.animation{position:relative;top:200px;opacity:0;-webkit-transition:opacity .5s ease-in-out .5s,top .9s linear .1s;transition:opacity .5s ease-in-out .5s,top .9s linear .1s}.animation.animated{top:0;opacity:1}.sec1 p{color:#000;font-family:Ubuntu;font-size:23px;font-weight:400;line-height:27px;background:url(img/diamond.png) no-repeat top center;margin-top:34px;letter-spacing:.5px;text-align:center;padding-top:73px}</style>
+ </head>
 <body>
-    <div id="maket"></div>
-    <section class="sec1">
-        <div class="wrap">
-            <div class="logo"></div>
-            <h2>Если ты не управляешь <br> своей жизнью, то твоей жизнью управляет кто-то другой</h2>
-            <p>Двухдневный коуч тренинг
-                <br>в пятидневном туре для избранных</p>
-        </div>
-    </section>
-    <section class="sec2">
-        <div class="wrap">
-            <h2>Ведущий VIP Коуч<br>и основатель Karma Logic</h2>
-                <p>Уникальный жизненный путь. <br>Обучил свыше 10000 человек. <br>Профессор. MBA. <br>Доктор психологических наук. <br>Доктор экономических наук. Тренер НЛП.</p>
-                <div class="foto foto_im1"></div>
-                <a href="" class="btn_ml">KarmaLogic</a>
-        </div>
-    </section>
-    <section class="sec3">
-        <div class="wrap">
-            <h2>За долгие годы Алексей <br> Петрович поработал с сотнями<br> выдающихся личностей</h2>
-            <div class="fon_slider">
-            <div class="str_slid1">
-                    <a href="" class="sli"></a>
-                    <a href="" class="sli"></a>
-                    <a href="" class="sli"></a>
-                    <a href="" class="sli"></a>
-                </div>
-                <h3>Греф Герман Оскорович</h3>
-                <div class="klient_b klib_im1"></div>
-                <p>Министр экономики РФ 2000 - 2007 г. государственный деятель, президент и председатель правления Сбербанка</p>
-                <!--
-                <h3>В.В. Анисимов</h3>
-                <div class="klient_b klib_im2"></div>
-                <p>Российский бизнесмен и меценат. Консультирование ряда коммерческих и социальных проектов</p>
-                
-                <h3>Ю.В. Тимошенко</h3>
-                <div class="klient_b klib_im3"></div>
-                <p>Премьер-министри политический деятель Украины. Консультирование избирательных кампаний и государственных стратегических проектов</p>
-                
-                <h3>Е.Т. Гайдар</h3>
-                <div class="klient_b klib_im4"></div>
-                <p>Премьер-министр РФ и выдающийся экономист. Политическое консультирование</p>
-                
-                <h3>Н.Е. Аксененко</h3>
-                <div class="klient_b klib_im5"></div>
-                <p>Глава Министерства путей сообщения, вице-премьер РФ, выдающийся государственный деятель.Коучинг и политическое консультирование, разработка и сопровождениереформ МПС и РАО РЖД.</p>
-                
-                <h3>А.Т.Курманаев</h3>
-                <div class="klient_b klib_im6"></div>
-                <p>банкир, создатель банков “Сибирскийторговыйбанк”, “Башкредитбанк”, “Уралсиб”. Стратегическое и бизнес-консультирование</p>
-                
-                <h3>Н.И.Ельцина</h3>
-                <div class="klient_b klib_im7"></div>
-                <p>Первая леди Первого Президента РФ. Сопровождение участия в избирательной кампании</p>
-                
-                <h3>Б.А.Березовский</h3>
-                <div class="klient_b klib_im8"></div>
-                <p>Общественный и государственный деятель. Ведение избирательной кампании в депутаты Госдумы РФ, политическое консультирование в ходе создания проекта передачи власти 1999-2000 г.г.</p>
-                
-                <h3>Ю.М.Лужков</h3>
-                <div class="klient_b klib_im9"></div>
-                <p>Политический деятель и мэр г. Москва. Политическое консультирвание и сопровождение ряда стратегических проектов</p>
-                
-                <h3>В.С.Черномырдин</h3>
-                <div class="klient_b klib_im10"></div>
-                <p>Политический деятель и Премьер-министр РФ. Политическое консультирование и ведение избирательной кампании</p>
-                
-                <h3>Э.А.Шеварнадзе</h3>
-                <div class="klient_b klib_im11"></div>
-                <p>Президент Грузии. консультирование и ведение избирательных кампаний</p>
-                
-                <h3>Л.Д.Кучма</h3>
-                <div class="klient_b klib_im12"></div>
-                <p>Президент Украины. консультирование и ведение избирательных кампаний</p>
-                
-                <div class="klient_sgr">
-                    <a href="" class="klis_im1"></a>
-                    <a href="" class="klis_im2"></a>
-                    <a href="" class="klis_im3"></a>
-                    <a href="" class="klis_im4"></a>
-                    <a href="" class="klis_im5"></a>
-                    <a href="" class="klis_im6"></a>
-                    
-                    <a href="" class="klis_im7"></a>
-                    <a href="" class="klis_im8"></a>
-                    <a href="" class="klis_im9"></a>
-                    <a href="" class="klis_im10"></a>
-                    <a href="" class="klis_im11"></a>
-                    <a href="" class="klis_im12"></a>
-                    -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sec4">
-        <div class="wrap">
-            <h2>Выдающиеся студенты<br>Ситникова А. П.</h2>
-            <p class="log_gr"><span class="log_im1"></span><a>Ксения Соловьева</a>
-                <br>Главный редактор журнала
-                <br>Tatler Россия</p>
-            <p class="log_gr"><span class="log_im2"></span><a>Евгения Шохина</a>
-                <br>Президент Бизнес-школы
-                <br> РСПП</p>
-            <p class="log_gr"><span class="log_im3"></span><a>Яков Миневич </a>
-                <br>Генеральный директор
-                <br> Агенства “Р.И.М. - ПортерНовелли</p>
-            <!--
-            <p class="log_gr"><span class="log_im4"></span><a>Алексей Могилевский</a>
-                <br>Архитектор и ведущийразработчик корпорации Microsoft в США</p>
-            <p class="log_gr"><span class="log_im5"></span><a>Анастасия Карпова</a>
-                <br>Генеральный директор сети аптек“ДокторСтолетов</p>
-            <p class="log_gr"><span class="log_im6"></span><a>Ульяна Смольская </a>
-                <br>PR-директор компании
-                <br>«Евросеть»</p>
-            <p class="log_gr"><span class="log_im7"></span><a>Анна Айбашева</a>
-                <br>пресс-секретарь ОАО «ВымпелКом»
-                <br>(бренд «Биллайн»)я</p>
-            <p class="log_gr"><span class="log_im8"></span><a>Михаил Умаров</a>
-                <br>генеральный директор коммуникационного агентства «Comunica»</p>
-            <p class="log_gr"><span class="log_im9"></span><a>Татьяна<br>Патрацкая-Гуляева </a>
-                <br>директор по связям с общественностью компании «Wikimart»</p>
-                -->
-        </div>
-    </section>
-    <section class="sec5">
-        <div class="wrap">
-            <h2>Причины поехать на тренинг</h2>
-                <div class="wr_star">
-                <div class="line_star"></div>
-                            <p class="star">Проблемы в бизнесе,
-                                <br> с партнером
-                                <span></span></p>
-
-                        <!--
-                            <p class="star">Ощущение внутреннего и
-                                <br> внешнего кризиса
-                                <span></span></p>
-                            <p class="star">Слишком много
-                                <br> ответсвтенности
-                                <span></span></p>
-
-                                -->
-                        <!--
-                        <div class="star">
-                            <p>Не понимаю как
-                                <br> отдавать энергию</p>
-                        </div>
-                        <div class="star">
-                            <p>Ощущение, что выбрал
-                                <br> не правильный путь</p>
-                        </div>
-                        <div class="star">
-                            <p>Боюсь возмездия за
-                                <br> прошлые дела</p>
-                        </div>
-                        <div class="star">
-                            <p>Отсутствие сил и
-                                <br> энергии</p>
-                        </div>
-                        <div class="star">
-                            <p>Не знаю как удержать
-                                <br> своего мужчину</p>
-                        </div>
-                        <div class="star">
-                            <p>В последнее время
-                                <br> не везет</p>
-                        </div>
-                        <div class="star">
-                            <p>Потерял цели, не знаю
-                                <br> что делать</p>
-                        </div>
-                        <div class="star">
-                            <p>Устал от жизни,
-                                <br>проблем, людей</p>
-                        </div>
-                        <div class="star">
-                            <p>Не понимаю как
-                                <br> отдавать энергию</p>
-                        </div>
-                        <div class="star">
-                            <p>Не понимаю как
-                                <br> работает карма</p>
-                        </div>
-                        <div class="star">
-                            <p>Не те люди
-                                <br> окружают</p>
-                        </div>
-                        <div class="star">
-                            <p>Устал от популярности,
-                                <br> внимания</p>
-                        </div>
-                        <div class="star">
-                            <p>Нет счастья</p>
-                        </div>
-                        <div class="star">
-                            <p>Проблемы с богатыми
-                                <br> родителями</p>
-                        </div>
-                        <div class="star">
-                            <p>Проблемы в семье, с
-                                <br> женой, детьми</p>
-                        </div>
-                
-                <div class="wr_line">
-                    <div class="stat star_p1 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p2 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p3 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p4 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p5 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p6 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p7 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p8 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p9 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p10 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p11 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p12 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p13 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p14 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p15 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p16 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p17 span">
-                        <span></span>
-                    </div>
-                    <div class="stat star_p18 span">
-                        <span></span>
-                    </div>
-                </div>-->
-                <div class="str_slid2">
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                    <a href="" class="sli_s"></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sec6">
-        <div class="wrap">
-            <h2>Формат коучинга.<br>Как это будет?</h2>
-            <p class="kou_gr"><span class="kou_im1"></span>Выезд на 5 дней за границу лимитированной группой не более 30 человек</p>
-            <p class="kou_gr"><span class="kou_im2"></span>Место определяется с учетом приоритетных запросов участников, это может быть Тибет, а может и Амазонка</p>
-            <p class="kou_gr"><span class="kou_im3"></span>VIP сервис, уникальные впечатления, незабываемый опыт</p>             
-            <p class="kou_gr"><span class="kou_im4"></span>2 групповых сессии + индивидуальная консультация каждому участнику</p>
-            
-        </div>
-    </section>
-    <section class="sec7">
-        <div class="wrap">
-            <h2>Этот тур для тех, кто хочет:</h2>
-                <p class="tur_t"><span class="tur_im1"></span>
-                    <br>Найти цель и
-                    <br>смысл жизни</p>
-                <p class="tur_t"><span class="tur_im2"></span>
-                    <br>Научиться находить и
-                    <br> использовать потоки энергии</p>
-                <p class="tur_t"><span class="tur_im3"></span>
-                    <br>Научиться использовать
-                    <br>ресурсы
-                    <br>бессознательного</p>
-                <p class="tur_t"><span class="tur_im4"></span>
-                    <br>Найти или построить
-                    <br>отношения</p>
-                <p class="tur_t"><span class="tur_im5"></span>
-                    <br>Понять и использовать
-                    <br> законы кармы</p>
-            <a href="" class="lamp_gr">Новый образ мышления, новые связи, новый уровень</a>
-        </div>
-    </section>
-    <section class="sec8">
-        <div class="wrap">
-            <h2>Содержание и техники<br>
-            <span>Тематика коучинга и разбор техник может изменяться в ависимости от потребности группы</span></h2>
-            <div class="tex">
-                <h3>Техники <br><span></span></h3>
-                <h3>Cодержание<br><span></span></h3>
-                <p>Контроль состояний, воспоминаний и ощущений</p>
-                <p>Контроль состояний, воспоминаний и ощущений</p>
-                <p>Контроль состояний, воспоминаний и ощущений</p>
-            </div>
-            <!--
-            <div class="tex">
-                <h3>содержание</h3>
-                <p>Харизма, влияние и
-                    <br>развитие бренда личности</p>
-                <p>Управление судьбой и
-                    <br>разумный эгоизм</p>
-                <p>Взаимодействие мужской и
-                    <br>женской энергии</p>
-            </div>
-            -->
-        </div>
-    </section>
-    <section class="sec9">
-        <div class="wrap">
-            <h2>Видео обращение <br>Алексея Петровича</h2>
-            <div class="video">
-                <a href="" class="play">Посмотреть видео</a>
-            </div>
-            <h2>Заполните форму и <br>попадите на закрытую встречу</h2>
-        </div>
-    </section>
-    <section class="sec10">
-        <div class="wrap">
-            <div class="form_gr">
-                <a href="">Решить свои <br>проблемы</a>
-                <a href="">Добиться успеха, <br>лидерства</a>
-                <a href="">Найти гармонию <br>и счастье</a>
-                <a href="">Узнать законы <br>кармы</a>
-            </div>
-        </div>
-    </section>
-    <section class="sec11">
-        <div class="wrap">
-            <h2>Отзывы о работе с<br>Ситниковым А.П</h2>
-            <div class="vid_otz">
-                <a href="" class="play_v"></a>
-            </div>
-            <h3>иванов <br>Алексей Викторович</h3>
-            <div class="oval_gr">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-        </div>
-    </section>
-    <section class="sec12">
-        <div class="wrap">
-            <div class="forma">
-                <h3>Остались вопросы?<br><span>Вы можете задать свой вопрос <br>и мы обязательно Вам ответим</span></h3>
-                <form action="">
-                    <input type="text" name="name" placeholder="Введите имя">
-                    <input type="text" name="name" placeholder="Введите телефон">
-                    <textarea name="text" placeholder="Ваш вопрос"></textarea>
-                    <input type="submit" value="Отправить" class="btn_f">
-                </form>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="wrap">
-        <div class="logo_f"></div>
-            <p>Разработка сайта: </p>
-        </div>
-    </footer>
-
-    <section>
-        <div class="wrap">
-
-
-            <div class="ved_p1">
-                     <a href="" class="back">Вернуться назад</a><div class="clear"></div>
-                <h2>Консалтинг и тренинги:</h2>
-                <p>Один из основателей отечественной школы VIP-коучинга и психологического консультирования, классик политконсалтинга, PR и консалтингового рынка.
-                    <br> За 25 лет работы в качестве заведующего кафедрой политического консалтинга НИУ ВШЭ, президента компании ICCG (Консалтинговая Группа «ИМИДЖ-Контакт»), члена Совета директоров и научного руководителя агентства «Р.И.М. Портер Новелли», научного руководителя Института коммуникацимонного менеджмента НИУ ВШЭ, члена Совета директоров Института ситуационного анализа и новых технологий (ИСАНТ) руководил проведением:
-                    <br> - более 400 избирательных кампаний в десятках стран мира,
-                    <br> - более 500 семинаров и тренингов для бизнесменов, политиков,менеджеров, представителей государственной власти, специалистов в России и за рубежом
-                </p>
-            </div>
-            
-
-
-        </div>
-    </section>
+ <section class="sec1">
+  <div class="wrap">
+   <div class="logo"></div>
+   <h2 class="animation">Если ты не управляешь <br> своей жизнью, то твоей жизнью управляет кто-то другой</h2>
+   <p class="animation">Двухдневный коуч тренинг
+    <br>в пятидневном туре для избранных</p>
+  </div>
+ </section>
+ <section class="sec2">
+  <div class="wrap">
+   <h2>Ведущий VIP Коуч<br>и основатель Karma Logic</h2>
+    <p>Уникальный жизненный путь. <br>Обучил свыше 10000 человек. <br>Профессор. MBA. <br>Доктор психологических наук. <br>Доктор экономических наук. Тренер НЛП.</p>
+    <div class="foto foto_im1"></div>
+    <a href="javascript:void(0)" class="btn_ml">KarmaLogic</a>
+  </div>
+ </section>
+ <section class="sec3">
+  <div class="wrap">
+   <h2>За долгие годы Алексей <br> Петрович поработал с сотнями<br> выдающихся личностей</h2>
+   <div class="fon_slider">
+    <div class="str_slid1">
+      <a href="javascript:void(0)" data-slide-index="0" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="1" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="2" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="3" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="4" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="5" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="6" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="7" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="8" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="9" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="10" class="sli"></a>
+      <a href="javascript:void(0)" data-slide-index="11" class="sli"></a>
+     </div>
+     <div id="sld1">
+      <div class="slide1">
+       <h3>Греф Герман Оскорович</h3>
+       <div class="klient_b klib_im1"></div>
+       <p>Министр экономики РФ 2000 - 2007 г. государственный деятель, президент и председатель правления Сбербанка</p>
+      </div>     
+      <div class="slide1">
+       <h3>В.В. Анисимов</h3>
+       <div class="klient_b klib_im2"></div>
+       <p>Российский бизнесмен и меценат. Консультирование ряда коммерческих и социальных проектов</p>
+      </div>     
+      <div class="slide1">
+       <h3>Ю.В. Тимошенко</h3>
+       <div class="klient_b klib_im3"></div>
+       <p>Премьер-министри политический деятель Украины. Консультирование избирательных кампаний и государственных стратегических проектов</p>
+      </div>     
+      <div class="slide1">
+       <h3>Е.Т. Гайдар</h3>
+       <div class="klient_b klib_im4"></div>
+       <p>Премьер-министр РФ и выдающийся экономист. Политическое консультирование</p>
+      </div>     
+      <div class="slide1">
+       <h3>Н.Е. Аксененко</h3>
+       <div class="klient_b klib_im5"></div>
+       <p>Глава Министерства путей сообщения, вице-премьер РФ, выдающийся государственный деятель.Коучинг и политическое консультирование, разработка и сопровождениереформ МПС и РАО РЖД.</p>
+      </div>     
+      <div class="slide1">
+       <h3>А.Т.Курманаев</h3>
+       <div class="klient_b klib_im6"></div>
+       <p>банкир, создатель банков “Сибирскийторговыйбанк”, “Башкредитбанк”, “Уралсиб”. Стратегическое и бизнес-консультирование</p>
+      </div>     
+      <div class="slide1">
+       <h3>Н.И.Ельцина</h3>
+       <div class="klient_b klib_im7"></div>
+       <p>Первая леди Первого Президента РФ. Сопровождение участия в избирательной кампании</p>
+      </div>     
+      <div class="slide1">
+       <h3>Б.А.Березовский</h3>
+       <div class="klient_b klib_im8"></div>
+       <p>Общественный и государственный деятель. Ведение избирательной кампании в депутаты Госдумы РФ, политическое консультирование в ходе создания проекта передачи власти 1999-2000 г.г.</p>
+      </div>     
+      <div class="slide1">
+       <h3>Ю.М.Лужков</h3>
+       <div class="klient_b klib_im9"></div>
+       <p>Политический деятель и мэр г. Москва. Политическое консультирвание и сопровождение ряда стратегических проектов</p>
+      </div>     
+      <div class="slide1">
+       <h3>В.С.Черномырдин</h3>
+       <div class="klient_b klib_im10"></div>
+       <p>Политический деятель и Премьер-министр РФ. Политическое консультирование и ведение избирательной кампании</p>
+      </div>     
+      <div class="slide1">
+       <h3>Э.А.Шеварнадзе</h3>
+       <div class="klient_b klib_im11"></div>
+       <p>Президент Грузии. консультирование и ведение избирательных кампаний</p>
+      </div>     
+      <div class="slide1">
+       <h3>Л.Д.Кучма</h3>
+       <div class="klient_b klib_im12"></div>
+       <p>Президент Украины. консультирование и ведение избирательных кампаний</p>
+      </div>     
+     </div>
+    </div>
+   </div>
+ </section>
+ <section class="sec4">
+  <div class="wrap">
+   <h2>Выдающиеся студенты<br>Ситникова А. П.</h2>
+   <p class="log_gr"><span class="log_im1"></span><a>Ксения Соловьева</a>
+    <br>Главный редактор журнала
+    <br>Tatler Россия</p>
+   <p class="log_gr"><span class="log_im2"></span><a>Евгения Шохина</a>
+    <br>Президент Бизнес-школы
+    <br> РСПП</p>
+   <p class="log_gr"><span class="log_im3"></span><a>Яков Миневич </a>
+    <br>Генеральный директор
+    <br> Агенства “Р.И.М. - ПортерНовелли</p>
+  </div>
+ </section>
+ <section class="sec5">
+  <div class="wrap">
+   <h2>Причины поехать на тренинг</h2>
+    <div class="wr_star">
+    <div class="line_star"></div>
+    <div class="sld2w">
+     <div id="sld2">
+      <div class="star_w active" data-sld="0"><p class="star"><span class="p">Проблемы в бизнесе,<br> с партнером</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="1"><p class="star"><span class="p">Ощущение внутреннего и<br> внешнего кризиса</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="2"><p class="star"><span class="p">Слишком много<br> ответсвтенности</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="3"><p class="star"><span class="p">Не понимаю как<br> отдавать энергию</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="4"><p class="star"><span class="p">Ощущение, что выбрал<br> не правильный путь</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="5"><p class="star"><span class="p">Боюсь возмездия за<br> прошлые дела</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="6"><p class="star"><span class="p">Отсутствие сил и<br> энергии</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="7"><p class="star"><span class="p">Не знаю как удержать<br> своего мужчину</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="8"><p class="star"><span class="p">В последнее время<br> не везет</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="9"><p class="star"><span class="p">Потерял цели, не знаю<br> что делать</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="10"><p class="star"><span class="p">Устал от жизни,<br>проблем, людей</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="11"><p class="star"><span class="p">Не понимаю как<br> отдавать энергию</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="12"><p class="star"><span class="p">Не понимаю как<br> работает карма</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="13"><p class="star"><span class="p">Не те люди<br> окружают</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="14"><p class="star"><span class="p">Устал от популярности,<br> внимания</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="15"><p class="star"><span class="p">Нет счастья</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="16"><p class="star"><span class="p">Проблемы с богатыми<br> родителями</span><span class="span"></span></p></div>
+      <div class="star_w" data-sld="17"><p class="star"><span class="p">Проблемы в семье, с<br> женой, детьми</span><span class="span"></span></p></div>      
+     </div>
+    </div>
+    <div class="str_slid2">
+     <a href="javascript:void(0)" data-slide-index="0" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="1" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="2" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="3" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="4" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="5" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="6" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="7" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="8" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="9" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="10" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="11" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="12" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="13" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="14" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="15" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="16" class="sli_s"></a>
+     <a href="javascript:void(0)" data-slide-index="17" class="sli_s"></a>
+    </div>
+   </div>
+  </div>
+ </section>
+ <section class="sec6">
+  <div class="wrap">
+   <h2>Формат коучинга.<br>Как это будет?</h2>
+   <p class="kou_gr"><span class="kou_im1"></span>Выезд на 5 дней за границу лимитированной группой не более 30 человек</p>
+   <p class="kou_gr"><span class="kou_im2"></span>Место определяется с учетом приоритетных запросов участников, это может быть Тибет, а может и Амазонка</p>
+   <p class="kou_gr"><span class="kou_im3"></span>VIP сервис, уникальные впечатления, незабываемый опыт</p>    
+   <p class="kou_gr"><span class="kou_im4"></span>2 групповых сессии + индивидуальная консультация каждому участнику</p>
+   
+  </div>
+ </section>
+ <section class="sec7">
+  <div class="wrap">
+   <h2>Этот тур для тех, кто хочет:</h2>
+    <p class="tur_t"><span class="tur_im1"></span>
+     <br>Найти цель и
+     <br>смысл жизни</p>
+    <p class="tur_t"><span class="tur_im2"></span>
+     <br>Научиться находить и
+     <br> использовать потоки энергии</p>
+    <p class="tur_t"><span class="tur_im3"></span>
+     <br>Научиться использовать
+     <br>ресурсы
+     <br>бессознательного</p>
+    <p class="tur_t"><span class="tur_im4"></span>
+     <br>Найти или построить
+     <br>отношения</p>
+    <p class="tur_t"><span class="tur_im5"></span>
+     <br>Понять и использовать
+     <br> законы кармы</p>
+   <p class="lamp_gr">Новый образ мышления, новые связи, новый уровень</p>
+  </div>
+ </section>
+ <section class="sec8">
+  <div class="wrap">
+   <h2>Содержание и техники<br>
+   <span>Тематика коучинга и разбор техник может изменяться в ависимости от потребности группы</span></h2>
+   <div class="tex">
+    <h3 class="tex_trig active" data-block="1">Техники <br><span></span></h3>
+    <h3 class="tex_trig" data-block="2">Cодержание<br><span></span></h3>
+    <div class="tex_w active" data-block="1">
+     <p>Контроль состояний, воспоминаний и ощущений</p>
+     <p>Контроль состояний, воспоминаний и ощущений</p>
+     <p>Контроль состояний, воспоминаний и ощущений</p>
+    </div>
+    <div class="tex_w" data-block="2">
+     <p>Харизма, влияние и<br>развитие бренда личности</p>
+     <p>Управление судьбой и<br>разумный эгоизм</p>
+     <p>Взаимодействие мужской и<br>женской энергии</p>
+    </div>
+   </div>
+  </div>
+ </section>
+ <section class="sec9">
+  <div class="wrap">
+   <h2>Видео обращение <br>Алексея Петровича</h2>
+   <div class="video">
+    <a href="javascript:void(0)" class="play">Посмотреть видео</a>
+   </div>
+   <h2>Заполните форму и <br>попадите на закрытую встречу</h2>
+  </div>
+ </section>
+ <div class="sec10 section">
+  <div class="wrap">
+   <div class="form_gr">
+    <a href="javascript:void(0)">Решить свои <br>проблемы</a>
+    <a href="javascript:void(0)">Добиться успеха, <br>лидерства</a>
+    <a href="javascript:void(0)">Найти гармонию <br>и счастье</a>
+    <a href="javascript:void(0)">Узнать законы <br>кармы</a>
+   </div>
+  </div>
+ </div>
+ <section class="sec11">
+  <div class="wrap">
+   <h2>Отзывы о работе с<br>Ситниковым А.П</h2>
+   <div id="sld3">
+    <div class="slide3 slide3_1">
+     <div class="vid_otz" data-video="oSGfZQTPrM8">
+      <a href="javascript:void(0)" class="play_v"></a>
+     </div>
+     <h3>иванов <br>Алексей Викторович</h3></div>
+    <div class="slide3 slide3_1">
+     <div class="vid_otz" data-video="oSGfZQTPrM8">
+      <a href="javascript:void(0)" class="play_v"></a>
+     </div>
+     <h3>иванов <br>Алексей Викторович</h3></div>
+    <div class="slide3 slide3_1">
+     <div class="vid_otz" data-video="oSGfZQTPrM8">
+      <a href="javascript:void(0)" class="play_v"></a>
+     </div>
+     <h3>иванов <br>Алексей Викторович</h3></div>
+   </div>
+   <div class="oval_gr">
+    <a href="javascript:void(0)" data-slide-index="0"></a>
+    <a href="javascript:void(0)" data-slide-index="1"></a>
+    <a href="javascript:void(0)" data-slide-index="2"></a>
+   </div>
+  </div>
+ </section>
+ <section class="sec12">
+  <div class="wrap">
+   <div class="forma">
+    <h3>Остались вопросы?<br><span>Вы можете задать свой вопрос <br>и мы обязательно Вам ответим</span></h3>
+    <form action="ajax/mail.php" method="post">
+     <input type="text" name="name" placeholder="Введите имя">
+     <input type="text" name="phone" placeholder="Введите телефон">
+     <textarea name="text" placeholder="Ваш вопрос"></textarea>
+     <input type="submit" value="Отправить" class="btn_f">
+    </form>
+   </div>
+  </div>
+ </section>
+ <footer>
+  <div class="wrap">
+  <div class="logo_f"></div>
+   <p>Разработка сайта: </p>
+  </div>
+ </footer>
+<div id="hidden-box">
+ <div class="pop">
+  <a href="javascript:void(0)" class="back">Вернуться назад</a><div class="clear"></div>
+  <form action="ajax/mail.php" method="post">
+   <input type="text" name="name" placeholder="Введите имя">
+   <input type="text" name="phone" placeholder="Введите телефон">
+   <input type="submit" value="Отправить" class="btn_f">
+  </form>
+  
+ </div>   
+ <div class="ved_p1">
+      <a href="javascript:void(0)" class="back">Вернуться назад</a><div class="clear"></div>
+    <h2>Консалтинг и тренинги:</h2>
+    <p>Один из основателей отечественной школы VIP-коучинга и психологического консультирования, классик политконсалтинга, PR и консалтингового рынка.
+     <br> За 25 лет работы в качестве заведующего кафедрой политического консалтинга НИУ ВШЭ, президента компании ICCG (Консалтинговая Группа «ИМИДЖ-Контакт»), члена Совета директоров и научного руководителя агентства «Р.И.М. Портер Новелли», научного руководителя Института коммуникацимонного менеджмента НИУ ВШЭ, члена Совета директоров Института ситуационного анализа и новых технологий (ИСАНТ) руководил проведением:
+     <br> - более 400 избирательных кампаний в десятках стран мира,
+     <br> - более 500 семинаров и тренингов для бизнесменов, политиков,менеджеров, представителей государственной власти, специалистов в России и за рубежом
+    </p>
+   </div>
+ <div id="okgo">Спасибо за заявку!<br>Наш менеджер свяжется с Вами<br>в ближайшее время</div>
+</div>
+ <script src="js/libs.min.js"></script>
+ <script src="js/main.js"></script>
 </body>
-
 </html>
