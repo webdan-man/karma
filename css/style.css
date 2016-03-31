@@ -133,6 +133,7 @@ p{text-align:left}
 .star_p1 p,.star_p16 p,.star_p17 p,.star_p18 p,.star_p2 p,.star_p3 p,.star_p4 p,.star_p5 p,.star_p6 p,.star_p7 p,.star_p8 p,.star_p9 p{background:url(../img/fon_star.png) no-repeat center;width:310px;height:139px;text-align:center;color:#000;font-family:Ubuntu;font-size:16px;font-weight:400;top:-100px;left:-133px;position:absolute;letter-spacing:.7px;line-height:19px;padding:50px 30px;background-size:cover;display:none}
 .star_p10 p,.star_p11 p,.star_p12 p,.star_p13 p,.star_p14 p,.star_p15 p{background:url(../img/fon_starb.png) no-repeat center;width:310px;height:139px;text-align:center;color:#000;font-family:Ubuntu;font-size:16px;font-weight:400;top:5px;left:-133px;position:absolute;letter-spacing:.7px;line-height:19px;padding:50px 30px;background-size:cover;display:none}
 .gr_s:hover span{display:inline-block}
+.gr_s:hover p{display:inline-block}
 #s6s1{top:11.2%}
 #s6s2{margin-top:118.8px;top:23.2%}
 #s6s3{margin-top:303.6px;top:37.4%}
@@ -180,12 +181,13 @@ p{text-align:left}
 .video{background:url(../img/video.jpg) no-repeat center center;width:100%;position:relative;height:100%;cursor:pointer;max-height: 628px;}
 .play{color:#fff;font-family:"Amazing Grotesk";font-size:29px;font-weight:600;line-height:47px;background:url(../img/play.png) no-repeat top center;padding-top:83px;position:absolute;bottom:50%;right:126px;margin-bottom:-65px;letter-spacing:1.8px}
 #s10s1{margin-top:-39.6px;top:13.6%}
-#s10s2{margin-top:-52.8px;top:26.8%}
+#s10s2{margin-top: -52px;top: 26%;}
 #s10s3{top:35.2%}
+#s10s32{top: 47%;}
 #s10s4{top:57.1%}
 .sec10{background:url(../img/bg_sec10.jpg) no-repeat center;height:1100px;background-size:cover}
 .sec10 h2{color:#000;font-size:35px;line-height:42px;letter-spacing:1.3px}
-.sec10 h3{color:#000;font-family:"Amazing Grotesk";font-size:35px;line-height:47px;font-weight:900;letter-spacing:1.3px}
+.sec10 h3{color:#000;font-family:"Amazing Grotesk";font-size: 30px;line-height: 35px;font-weight:900;letter-spacing:1.3px;}
 .form_gr{font-size:0}
 .form_gr a{width:270px;height:105px;border:2px solid #fefefe;display:inline-block;color:#fefefe;font-family:Ubuntu;font-size:26px;font-weight:400;-webkit-transition:all .25s;transition:all .25s;z-index:2;line-height:38px;letter-spacing:0;text-align:left;padding-left:26px;padding-top:10px;vertical-align:top;letter-spacing:1.7px;margin-left:10vh;margin-right:10vh;position:relative;overflow:hidden}
 .form_gr a:hover{border:2px solid #fefefe;color:#0d1924}
@@ -217,7 +219,7 @@ p{text-align:left}
 .forma h3 span{color:#000;font-family:Ubuntu;font-size:21px;font-weight:400;line-height:34px;display:inline-block;padding-left:35px;margin-top:14px;letter-spacing:.8px}
 .forma form{margin-top:27px}
 .error-input{border:1px solid red}
-form input{width:432px;height:47px;background-color:#ebebeb;border:1px solid #cbcbcb;margin-bottom:18px;color:#6a6a6a;font-family:Ubuntu;font-size:18px;font-weight:300;line-height:34px;padding-left:28px;letter-spacing:.7px;-webkit-transition:all .25s;transition:all .25s;outline:0}
+form input{width: 415px;height:47px;background-color:#ebebeb;border:1px solid #cbcbcb;margin-bottom:18px;color:#6a6a6a;font-family:Ubuntu;font-size:18px;font-weight:300;line-height:34px;padding-left:28px;letter-spacing:.7px;-webkit-transition:all .25s;transition:all .25s;outline:0;}
 form textarea:focus{background:#fff;color:#000}
 form input[type=text]:focus{background:#fff;color:#000}
 form textarea{width:432px;height:124px;background-color:#ebebeb;border:1px solid #cbcbcb;color:#6a6a6a;font-family:Ubuntu;font-size:18px;font-weight:300;line-height:34px;padding-left:28px;padding-top:10px;letter-spacing:.7px;margin-bottom:18px;outline:0}
@@ -230,8 +232,8 @@ footer{background:#242529;padding:30px 0;position:absolute;bottom:0;width:100%;z
 footer .wrap{min-height:0}
 footer p{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-height:22px;float:left;margin-left:-22px;letter-spacing:.5px;margin-top:6px}
 footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-height:22px;background:url(../img/gulf-logo.png) no-repeat right top;float:right;min-height:42px;padding-right:209px;letter-spacing:.7px;padding-top:5px;margin-right:16px}
-.ved_p1{width:980px;height:600px;background:#fff;text-align:center;position:relative;padding:41px 161px 41px 106px}
-.close{background:url(../img/close.png) no-repeat center;width:30px;height:30px;position:absolute;left:47px;top:41px}
+.ved_p1{/* width: 644px; */height:600px;/* background:#fff; */text-align:center;position:relative;/* padding:41px 161px 41px 106px */}
+.closes{background-image: url(../img/close.png);width: 60px;height: 60px;left:47px;background-color: white;top:41px;display: block;margin-top: 0px;margin-left: 0px;float: left;position: relative;z-index: 3;border-radius30px;border-radius: 30px;}
 .ved_p1 h2{color:#232323;font-size:24px;font-weight:600;line-height:47px;text-align:left;text-transform:none;letter-spacing:.9px}
 .ved_p1 p{color:#000;font-family:Ubuntu;font-size:14px;font-weight:400;line-height:23px;margin-top:22px;letter-spacing:.6px}
 .gr_s{position:absolute}
@@ -270,3 +272,53 @@ footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-heigh
 .arcticmodal-container_i{margin:0 auto;height:100%}
 .arcticmodal-container_i2{margin:0;border:0;vertical-align:middle}
 #okgo{text-align:center;background:#fff;color:#000;font-size:24px;line-height:36px;padding:30px}
+.lis_p{max-width: 440px;margin:0 auto;text-align:center;}
+.lis_p form{/* margin-top: 20px; */}
+.lis_p form input{height: 50px;margin-bottom: 20px;x;}
+.lis_p .btn_f{height:64px;margin-top: 10px;margin-bottom:0;-webkit-transition:background-image .25s;transition:background-image .25s;background-position:left -3px top -3px;}
+.slice .back{color:#000;font-family:Roboto;font-size:25px;font-weight:400;line-height:47px;background:url(../img/back.png) no-repeat top center;display:inline-block;padding-top: 15px;letter-spacing:1.2px;}
+
+.sec2 .fp-tableCell{
+    position: relative;
+    z-index: 3;
+    right: 0;
+    -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+}
+.infa {
+    float: right;
+    width: 570px;
+    height: 100%;
+    padding: 50px 54px;
+    background: white;
+    position: relative;
+    z-index: 3;
+    overflow: auto;
+    padding-bottom: 80px;
+}
+.infa_klik_overlay{
+    position: absolute;
+    width: 1920px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7);
+}
+.infa_klik {
+    position: absolute;
+    width: 698px;
+    display: inline-block;
+    height: 100vh;
+    right: 0;
+    /* background: white; */
+    z-index: -1;
+    opacity: 0;
+    right: -570px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    /* transition-timing-function: linear; */
+}
+.list.s-visible{z-index: 2;opacity: 1;top: 0;}
+.list {-webkit-animation-delay: 0.5s;animation-delay: 0.5s;z-index: -2;width: 100%;height: 100%;/* margin-top: 86px; *//* top: 21%; */opacity: 0;}
+.nvis {display: none;}

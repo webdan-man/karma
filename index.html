@@ -6,6 +6,7 @@
  <script type="text/javascript">if (screen.width <= 699) {document.location = "mobile/"+document.location.search;}</script>
  <style>#loader:after,#loader:before{content:"";position:absolute;height:initial;width:initial}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#3498db;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite;z-index:1001}#loader:before{top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#e74c3c;-webkit-animation:spin 3s linear infinite;animation:spin 3s linear infinite}#loader:after{top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#f9c922;-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}#loader-wrapper .loader-section{position:fixed;top:0;width:51%;height:100%;background:#222;z-index:1000;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}#loader-wrapper .loader-section.section-left{left:0}#loader-wrapper .loader-section.section-right{right:0}.loaded #loader-wrapper .loader-section.section-left{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:all .7s .3s cubic-bezier(.645,.045,.355,1);transition:all .7s .3s cubic-bezier(.645,.045,.355,1)}.loaded #loader-wrapper .loader-section.section-right{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);-webkit-transition:all .7s .3s cubic-bezier(.645,.045,.355,1);transition:all .7s .3s cubic-bezier(.645,.045,.355,1)}.loaded #loader{opacity:0;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.loaded #loader-wrapper{visibility:hidden;-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);-webkit-transition:all .3s 1s ease-out;transition:all .3s 1s ease-out}.no-js #loader-wrapper{display:none}.no-js h1{color:#222}#content{margin:0 auto;padding-bottom:50px;width:80%;max-width:978px}</style>
  <style>*{margin:0;padding:0;box-sizing:border-box;background-position:center;background-repeat:no-repeat}:not(a):after,:not(a):before,:not(br):after,:not(br):before,:not(img):after,:not(img):before,:not(span):after,:not(span):before{content:" ";display:block;width:100%;height:0;clear:both}a:after,a:before,br:after,br:before,img:after,img:before,span:after,span:before,table:after,table:before,td:after,td:before,tr:after,tr:before{content:none}.wrap{position:relative;margin:0 auto;max-width:980px;width:100%;min-height:600px;min-width:980px;height:100%;z-index:2;text-align:center}.clear{clear:both}.section,section{width:100%;overflow:hidden;position:relative;z-index:1;min-width:980px;height:100vh!important}h1,h2,h3,h4,h5{font-size:1em;font-weight:inherit;text-align:center}body{font-weight:400;letter-spacing:.027em;font-family:Ubuntu,sans-serif;color:#fff}a{text-decoration:none;color:inherit;outline:0!important}.slice{position:absolute;width:100%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}#s1s1{margin-top:39.6px;top:3.3999999999999995%}#s1s2{margin-top:132px;top:11%}#s1s3{margin-top:462px;top:12%}.sec1{background:url(img/bg_sec1.jpg) no-repeat center;background-size:cover;height:1100px}.logo{background:url(img/logo.png) no-repeat top center;width:100%;height:91px}h2{letter-spacing:2.9px;font-family:"Amazing Grotesk";text-transform:uppercase;font-weight:800}p{text-align:left}.sec1 h2{color:#000;letter-spacing:1px;font-size:37px;line-height:53px}.animation{position:relative;top:200px;opacity:0;-webkit-transition:opacity .5s ease-in-out .5s,top .9s linear .1s;transition:opacity .5s ease-in-out .5s,top .9s linear .1s}.fade-up-custom{top:0;opacity:1}.sec1 p{color:#000;font-family:Ubuntu;font-size:27px;font-weight:400;line-height:32px;background:url(img/diamond.png) no-repeat 0 6px;margin-left:-99px;padding-left:103px;letter-spacing:.5px;text-align:left}</style>
+ <link rel="stylesheet" href="css/libs_old.min.css">
 </head>
 <body>
 <div id="loader-wrapper">
@@ -13,6 +14,7 @@
  <div class="loader-section section-left"></div>
  <div class="loader-section section-right"></div> 
 </div>
+<script>if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){document.getElementById("loader-wrapper").style.display="none"}</script>
 <div id="pages">
  <section class="sec1 section">
   <div class="wrap">
@@ -41,14 +43,14 @@
       <br>Доктор экономических наук. Тренер НЛП.</p>
      <div class="clear"></div>
      <ul class="left">
-      <li><a href="#pop1_1"><span>KarmaLogic</span></a></li>
-      <li><a href="#pop1_1"><span>Тренинги</span></a></li>
-      <li><a href="#pop1_1"><span>Проекты</span></a></li>
-      <li><a href="#pop1_1"><span>Учителя</span></a></li>
-      <li><a href="#pop1_1"><span>Консалтинг</span></a></li>
-      <li><a href="#pop1_1"><span>Публикации</span></a></li>
-      <li><a href="#pop1_1"><span>Преподавание</span></a></li>
-      <li><a href="#pop1_1"><span>Образование</span></a></li>
+      <li><a href="#" data-numb="1" class="ob_gr"><span>KarmaLogic</span></a></li>
+      <li><a href="#" data-numb="2" class="ob_gr"><span>Тренинги</span></a></li>
+      <li><a href="#" data-numb="3" class="ob_gr"><span>Проекты</span></a></li>
+      <li><a href="#" data-numb="4" class="ob_gr"><span>Учителя</span></a></li>
+      <li><a href="#" data-numb="5" class="ob_gr"><span>Консалтинг</span></a></li>
+      <li><a href="#" data-numb="6" class="ob_gr"><span>Публикации</span></a></li>
+      <li><a href="#" data-numb="7" class="ob_gr"><span>Преподавание</span></a></li>
+      <li><a href="#" data-numb="8" class="ob_gr"><span>Образование</span></a></li>
      </ul>
      <div class="right foto foto_im1"></div>
     </div>
@@ -471,22 +473,62 @@
    <div class="slice" id="s10s1">
     <h2>Заполните форму и <br>попадите на закрытую встречу</h2>
    </div>
-   <div class="slice" id="s10s2">
-    <h3>Я хочу</h3>
-   </div>
-   <div class="slice" id="s10s3">
-    <div class="form_gr">
-     <a href="">Узнать законы
-      кармы</a>
-     <a href="">Найти гармонию <br>и счастье</a>
+   <div class="list s-visible" id="list1">
+      <div class="slice" id="s10s2">
+        <h3>Какую цель вы преследуете?</h3>
+      </div>
+      <div class="slice" id="s10s3">
+        <div class="form_gr">
+          <a href="" class="opi">Узнать законы кармы</a>
+          <a href="" class="opi">Найти гармонию <br>и счастье</a>
+        </div>
+      </div>
+      <div class="slice" id="s10s4">
+        <div class="form_gr">    
+          <a href="" class="opi">Решить свои <br>проблемы</a>
+          <a href="" class="opi">Добиться успеха, <br>лидерства</a>
+        </div>
+      </div>
     </div>
-   </div>
-   <div class="slice" id="s10s4">
-    <div class="form_gr">    
-     <a href="">Решить свои <br>проблемы</a>
-     <a href="">Добиться успеха, <br>лидерства</a>
+    <div class="list nvis" id="list2">
+      <div class="slice" id="s10s2">
+        <h3>Для достижения цели вы готовы…</h3>
+      </div>
+      <div class="slice" id="s10s32">
+        <div class="form_gr">
+          <a href="" class="opi2">Поехать в путешествие</a>
+          <a href="" class="opi3">Получать советы<br> по e-mail</a>
+        </div>
+      </div>
     </div>
+    <div class="list nvis" id="list3">
+      <div class="slice" id="s10s2">
+        <h3>Заполните форму и узнайте все<br> подробности о тренинге</h3>
+      </div>
+      <div class="slice" id="s10s32">
+        <div class="lis_p">
+    <form action="ajax/mail.php" method="post">
+     <input type="text" name="name" placeholder="Введите имя">
+     <input type="text" name="phone" placeholder="Введите телефон">
+     <input type="submit" value="Отправить" class="btn_f">
+    </form>
    </div>
+      </div>
+    </div>
+    <div class="list nvis" id="list4">
+      <div class="slice" id="s10s2">
+        <h3>Подписаться на рассылку</h3>
+      </div>
+      <div class="slice" id="s10s32">
+        <div class="lis_p">
+    <form action="ajax/mail.php" method="post">
+     <input type="text" name="name" placeholder="Введите имя">
+     <input type="text" name="email" placeholder="Ваш E-mail">
+     <input type="submit" value="Отправить" class="btn_f">
+    </form>
+   </div>
+      </div>
+    </div>
   </div>
  </section>
  <section class="sec11 section">
@@ -541,16 +583,79 @@
  </footer>
  </section>
 </div>
+
 <div id="hidden-box">
-   <div class="ved_p1" id="pop1_1">
-    <a href="" class="close"></a>
+
+   <div id="right-pop">
+	  <div class="ved_p1 infa_klik">
+	  <div class="infa_klik_overlay"></div>
+    <a href="#" class="closes"></a>
+    <div class="infa" data-numb="1">
     <h2>Консалтинг и тренинги:</h2>
     <p>Один из основателей отечественной школы VIP-коучинга и психологического консультирования, классик политконсалтинга, PR и консалтингового рынка.
      <br> За 25 лет работы в качестве заведующего кафедрой политического консалтинга НИУ ВШЭ, президента компании ICCG (Консалтинговая Группа «ИМИДЖ-Контакт»), члена Совета директоров и научного руководителя агентства «Р.И.М. Портер Новелли», научного руководителя Института коммуникацимонного менеджмента НИУ ВШЭ, члена Совета директоров Института ситуационного анализа и новых технологий (ИСАНТ) руководил проведением:
      <br> - более 400 избирательных кампаний в десятках стран мира,
      <br> - более 500 семинаров и тренингов для бизнесменов, политиков,менеджеров, представителей государственной власти, специалистов в России и за рубежом
     </p>
+    </div>
+    <div class="infa" data-numb="2">
+    <h2>Консалтинг и тренинги:</h2>
+    <p>Один из основателей отечественной школы VIP-коучинга и психологического консультирования, классик политконсалтинга, PR и консалтингового рынка.
+     <br> За 25 лет работы в качестве заведующего кафедрой политического консалтинга НИУ ВШЭ, президента компании ICCG (Консалтинговая Группа «ИМИДЖ-Контакт»), члена Совета директоров и научного руководителя агентства «Р.И.М. Портер Новелли», научного руководителя Института коммуникацимонного менеджмента НИУ ВШЭ, члена Совета директоров Института ситуационного анализа и новых технологий (ИСАНТ) руководил проведением:
+     <br> - более 400 избирательных кампаний в десятках стран мира,
+     <br> - более 500 семинаров и тренингов для бизнесменов, политиков,менеджеров, представителей государственной власти, специалистов в России и за рубежом
+    </p>
+    </div>
+    <div class="infa" data-numb="3">
+    <h2>Консалтинг и тренинги:</h2>
+    <p>Один из основателей отечественной школы VIP-коучинга и психологического консультирования, классик политконсалтинга, PR и консалтингового рынка.
+     <br> За 25 лет работы в качестве заведующего кафедрой политического консалтинга НИУ ВШЭ, президента компании ICCG (Консалтинговая Группа «ИМИДЖ-Контакт»), члена Совета директоров и научного руководителя агентства «Р.И.М. Портер Новелли», научного руководителя Института коммуникацимонного менеджмента НИУ ВШЭ, члена Совета директоров Института ситуационного анализа и новых технологий (ИСАНТ) руководил проведением:
+     <br> - более 400 избирательных кампаний в десятках стран мира,
+     <br> - более 500 семинаров и тренингов для бизнесменов, политиков,менеджеров, представителей государственной власти, специалистов в России и за рубежом
+    </p>
+    </div>
+    <div class="infa" data-numb="4">
+    <h2>Консалтинг и тренинги:</h2>
+    <p>Один из основателей отечественной школы VIP-коучинга и психологического консультирования, классик политконсалтинга, PR и консалтингового рынка.
+     <br> За 25 лет работы в качестве заведующего кафедрой политического консалтинга НИУ ВШЭ, президента компании ICCG (Консалтинговая Группа «ИМИДЖ-Контакт»), члена Совета директоров и научного руководителя агентства «Р.И.М. Портер Новелли», научного руководителя Института коммуникацимонного менеджмента НИУ ВШЭ, члена Совета директоров Института ситуационного анализа и новых технологий (ИСАНТ) руководил проведением:
+     <br> - более 400 избирательных кампаний в десятках стран мира,
+     <br> - более 500 семинаров и тренингов для бизнесменов, политиков,менеджеров, представителей государственной власти, специалистов в России и за рубежом
+    </p>
+    </div>
+    <div class="infa" data-numb="5">
+    <h2>Консалтинг и тренинги:</h2>
+    <p>Один из основателей отечественной школы VIP-коучинга и психологического консультирования, классик политконсалтинга, PR и консалтингового рынка.
+     <br> За 25 лет работы в качестве заведующего кафедрой политического консалтинга НИУ ВШЭ, президента компании ICCG (Консалтинговая Группа «ИМИДЖ-Контакт»), члена Совета директоров и научного руководителя агентства «Р.И.М. Портер Новелли», научного руководителя Института коммуникацимонного менеджмента НИУ ВШЭ, члена Совета директоров Института ситуационного анализа и новых технологий (ИСАНТ) руководил проведением:
+     <br> - более 400 избирательных кампаний в десятках стран мира,
+     <br> - более 500 семинаров и тренингов для бизнесменов, политиков,менеджеров, представителей государственной власти, специалистов в России и за рубежом
+    </p>
+    </div>
+    <div class="infa" data-numb="6">
+    <h2>Консалтинг и тренинги:</h2>
+    <p>Один из основателей отечественной школы VIP-коучинга и психологического консультирования, классик политконсалтинга, PR и консалтингового рынка.
+     <br> За 25 лет работы в качестве заведующего кафедрой политического консалтинга НИУ ВШЭ, президента компании ICCG (Консалтинговая Группа «ИМИДЖ-Контакт»), члена Совета директоров и научного руководителя агентства «Р.И.М. Портер Новелли», научного руководителя Института коммуникацимонного менеджмента НИУ ВШЭ, члена Совета директоров Института ситуационного анализа и новых технологий (ИСАНТ) руководил проведением:
+     <br> - более 400 избирательных кампаний в десятках стран мира,
+     <br> - более 500 семинаров и тренингов для бизнесменов, политиков,менеджеров, представителей государственной власти, специалистов в России и за рубежом
+    </p>
+    </div>
+    <div class="infa" data-numb="7">
+    <h2>Консалтинг и тренинги:</h2>
+    <p>Один из основателей отечественной школы VIP-коучинга и психологического консультирования, классик политконсалтинга, PR и консалтингового рынка.
+     <br> За 25 лет работы в качестве заведующего кафедрой политического консалтинга НИУ ВШЭ, президента компании ICCG (Консалтинговая Группа «ИМИДЖ-Контакт»), члена Совета директоров и научного руководителя агентства «Р.И.М. Портер Новелли», научного руководителя Института коммуникацимонного менеджмента НИУ ВШЭ, члена Совета директоров Института ситуационного анализа и новых технологий (ИСАНТ) руководил проведением:
+     <br> - более 400 избирательных кампаний в десятках стран мира,
+     <br> - более 500 семинаров и тренингов для бизнесменов, политиков,менеджеров, представителей государственной власти, специалистов в России и за рубежом
+    </p>
+    </div>
+    <div class="infa" data-numb="8">
+    <h2>Консалтинг и тренинги:</h2>
+    <p>Один из основателей отечественной школы VIP-коучинга и психологического консультирования, классик политконсалтинга, PR и консалтингового рынка.
+     <br> За 25 лет работы в качестве заведующего кафедрой политического консалтинга НИУ ВШЭ, президента компании ICCG (Консалтинговая Группа «ИМИДЖ-Контакт»), члена Совета директоров и научного руководителя агентства «Р.И.М. Портер Новелли», научного руководителя Института коммуникацимонного менеджмента НИУ ВШЭ, члена Совета директоров Института ситуационного анализа и новых технологий (ИСАНТ) руководил проведением:
+     <br> - более 400 избирательных кампаний в десятках стран мира,
+     <br> - более 500 семинаров и тренингов для бизнесменов, политиков,менеджеров, представителей государственной власти, специалистов в России и за рубежом
+    </p>
+    </div>
    </div>
+</div>
    <div class="pop" id="pop2">
     <a href="" class="back">вернуться назад</a>
     <form action="ajax/mail.php" method="post">

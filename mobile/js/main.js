@@ -34,9 +34,38 @@ $(document).ready(function() {
 		$(this).parent().arcticmodal('close');
 	});
 
-	$('.form_gr a').click(function(){
-		$('.pop').arcticmodal();
-	});
+	//$('.form_gr a').click(function(){
+	//	$('.pop').arcticmodal();
+	//});
+    $('.btn_ml').click(function(){
+        $('.pop_m').arcticmodal();
+    });
+    $('.pop_m li a').click(function(){
+        $('.ved_p1').arcticmodal();
+    });
+
+    $('.opi').click(function(e){
+   e.preventDefault();
+    $('#list2').addClass('s-visible fadeInRight animated');
+    $('#list2').removeClass('nvis');
+    $('#list1').addClass('nvis');
+    $('#list1').removeClass('s-visible');
+
+  });
+  $('.opi2').click(function(e){
+   e.preventDefault();
+    $('#list3').addClass('s-visible fadeInRight animated');
+    $('#list3').removeClass('nvis');
+    $('#list2').addClass('nvis');
+    $('#list2').removeClass('s-visible');
+  });
+$('.opi3').click(function(e){
+   e.preventDefault();
+    $('#list4').addClass('s-visible fadeInRight animated');
+    $('#list4').removeClass('nvis');
+    $('#list2').addClass('nvis');
+    $('#list2').removeClass('s-visible');
+  });
 
   function getURLParameter(name) {return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;} 
     function run_geo(geo_url){
@@ -59,6 +88,11 @@ $(document).ready(function() {
     $('input[name="phone"]').mask('+7 (999) 999-99-99');
     $('input[name="phone"]').blur(function() {if($(this).val().length != 18) {$(this).addClass('error-input');}});
     $('input[name="phone"]').focus(function() {$(this).removeClass('error-input');});
+
+    function validateEmail(email) {var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;return re.test(email);};
+
+    $('input[name="email"]').blur(function() {if(!validateEmail($(this).val())) {$(this).addClass('error-input');}});
+    $('input[name="email"]').focus(function() {$(this).removeClass('error-input');});
 
     $('textarea').blur(function() {if($(this).val().length < 3) {$(this).addClass('error-input');}});
     $('textarea').focus(function() {$(this).removeClass('error-input');});

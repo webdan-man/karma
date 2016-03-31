@@ -1,6 +1,7 @@
 <?php
 $name = $_POST['name'];
 $phone = $_POST['phone'];
+$email = $_POST['email'];
 $text = $_POST['text'];
 $utm_source = $_POST['utm_source'];
 $utm_medium = $_POST['utm_medium'];
@@ -28,7 +29,8 @@ $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 $to = "triowork2@gmail.com";
 
 $message = "Имя: $name\n";
-$message .= "Телефон: $phone\n\n";
+$message .= "Телефон: $phone\n";
+$message .= "E-mail: $email\n\n";
 $message .= "Вопрос: $text\n\n";
 $message .= "Источник: $utm_source\n";
 $message .= "Тип источника: $utm_medium\n";
