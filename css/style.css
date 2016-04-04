@@ -72,7 +72,7 @@ p{text-align:left}
 .str_slid1 a{vertical-align:middle}
 .sli{width:14px;height:14px;background-color:#cdcdcd;border-radius:7px;display:inline-block;margin:18px 3px;-webkit-transition:all .25s;transition:all .25s}
 .sli.active,.sli:hover{width:18px;height:18px;background-color:#f4846a;border-radius:9px;margin:14px 1px}
-#sld-cont{width:200%}
+#sld-cont{width:200%;/* transition: all 0.1s; */}
 .klient_sgr{overflow:hidden;font-size:0;letter-spacing:0;width:531px;display:inline-block;float:right;margin-top:47px;position:absolute;bottom:0;height:95px;right:0}
 .klis_im1{background:url(../img/klib_him1.jpg) no-repeat center}
 .klis_im2{background:url(../img/klib_him2.jpg) no-repeat center}
@@ -80,13 +80,13 @@ p{text-align:left}
 .klis_im4{background:url(../img/klib_him4.jpg) no-repeat center}
 .klis_im5{background:url(../img/klib_him5.jpg) no-repeat center}
 .klis_im6{background:url(../img/klib_him6.jpg) no-repeat center}
-.klis_im7{background:url(../img/klib_im7.jpg) no-repeat center}
-.klis_im8{background:url(../img/klib_im8.jpg) no-repeat center}
-.klis_im9{background:url(../img/klib_im9.jpg) no-repeat center}
-.klis_im10{background:url(../img/klib_im10.jpg) no-repeat center}
-.klis_im11{background:url(../img/klib_im11.jpg) no-repeat center}
-.klis_im12{background:url(../img/klib_im12.jpg) no-repeat center}
-.klient_sgr a:hover{-webkit-filter:grayscale(0);filter: grayscale(0);}
+.klis_im7{background:url(../img/klib_him7.jpg) no-repeat center}
+.klis_im8{background:url(../img/klib_him8.jpg) no-repeat center}
+.klis_im9{background:url(../img/klib_him9.jpg) no-repeat center}
+.klis_im10{background:url(../img/klib_him10.jpg) no-repeat center}
+.klis_im11{background:url(../img/klib_him11.jpg) no-repeat center}
+.klis_im12{background:url(../img/klib_him12.jpg) no-repeat center}
+.klient_sgr a:hover,.klient_sgr a.active{-webkit-filter:grayscale(0);filter: grayscale(0);}
 .klient_sgr a{display:inline-block;width:88px;height:95px;background-size:cover!important;-webkit-filter:grayscale(100%);-webkit-transition:all .25s;transition:all .25s;cursor:pointer;filter: grayscale(100%);}
 #s4s1{margin-top:-26.4px;top:12.4%}
 #s4s2{margin-top:39.6px;top:22.4%}
@@ -355,4 +355,3 @@ footer p{color:#fff;font-family:Roboto;font-size:16px;margin-top: 15px;font-weig
     /* margin: 26px 0; */
     /* display: inline-block; */
     float: left;
-}
