@@ -25,11 +25,11 @@ p{text-align:left}
 #s2s2{margin-top:105.6px;top:43.4%}
 .sec2{background:#232323;height:1100px}
 .sec2 h2{font-size:35px;line-height:47px}
-.fon_silver{background:url(../img/bg_silver.png) no-repeat top center;width:769px;max-height:605px;display:inline-block;padding-left:68px;height:80vh}
+.fon_silver{background:url(../img/bg_silver.png) no-repeat top center;width:769px;max-height:605px;display:inline-block;padding-left:68px;height:80vh;}
 .left{float:left}
 .right{float:right}
 .fon_silver h3{font-family:"Amazing Grotesk";font-size:32px;font-weight:600;line-height:47px;text-transform:uppercase;text-align:left;letter-spacing:2.5px;position:relative;top:3.9669%}
-.fon_silver p{color:#909090;font-family:Ubuntu;font-size:17px;font-weight:400;line-height:28px;margin-right:-98px;margin-top:1px;letter-spacing:.7px;position:relative}
+.fon_silver p{color:#909090;font-family:Ubuntu;font-size:17px;font-weight:400;line-height:28px;margin-right: -77px;margin-top:1px;letter-spacing:.7px;position:relative;}
 .fon_silver ul{position:relative;top:4.628%;height:68.76%}
 .fon_silver li{display:block;position:relative;margin-bottom:2%;height:11.77%}
 .fon_silver a{color:#d3d3d3;font-family:Ubuntu;font-size:16px;font-weight:300;line-height:37px;display:inline-block;text-align:left;-webkit-transition:background .25s;transition:background .25s;letter-spacing:.6px;padding:0 0 0 31px;float:left;position:relative;width:170px;background-size:100% 100%;vertical-align:middle;height:100%}
@@ -222,20 +222,20 @@ p{text-align:left}
 form input{width: 415px;height:47px;background-color:#ebebeb;border:1px solid #cbcbcb;margin-bottom:18px;color:#6a6a6a;font-family:Ubuntu;font-size:18px;font-weight:300;line-height:34px;padding-left:28px;letter-spacing:.7px;-webkit-transition:all .25s;transition:all .25s;outline:0;}
 form textarea:focus{background:#fff;color:#000}
 form input[type=text]:focus{background:#fff;color:#000}
-form textarea{width:432px;height:124px;background-color:#ebebeb;border:1px solid #cbcbcb;color:#6a6a6a;font-family:Ubuntu;font-size:18px;font-weight:300;line-height:34px;padding-left:28px;padding-top:10px;letter-spacing:.7px;margin-bottom:18px;outline:0}
+form textarea{width: 415px;height:124px;background-color:#ebebeb;border:1px solid #cbcbcb;color:#6a6a6a;font-family:Ubuntu;font-size:18px;font-weight:300;line-height:34px;padding-left:28px;padding-top:10px;letter-spacing:.7px;margin-bottom:18px;outline:0;}
 textarea{resize:none}
 textarea::-moz-placeholder{color:#6a6a6a;font-family:Ubuntu;font-size:18px;font-weight:300;line-height:34px}
 input::-moz-placeholder{color:#6a6a6a;font-family:Ubuntu;font-size:18px;font-weight:300;line-height:34px}
 .btn_f{width:371px;height:64px;background-color:#6c6c6c;background-image:none;color:#fff;font-family:Ubuntu;font-size:24px;font-weight:400;line-height:33px;border-radius:30px;letter-spacing:1px;padding:0;cursor:pointer;outline:0}
 .btn_f:hover{background-image:url(../img/btn_fh.png)}
-footer{background:#242529;padding:30px 0;position:absolute;bottom:0;width:100%;z-index:3}
+footer{background:#242529;padding: 10px 0;position:absolute;bottom:0;width:100%;text-align: center;z-index:3;}
 footer .wrap{min-height:0}
-footer p{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-height:22px;float:left;margin-left:-22px;letter-spacing:.5px;margin-top:6px}
-footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-height:22px;background:url(../img/gulf-logo.png) no-repeat right top;float:right;min-height:42px;padding-right:209px;letter-spacing:.7px;padding-top:5px;margin-right:16px}
+footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-height:22px;/* float:left; *//* margin-left:-22px; */letter-spacing:.5px;/* margin-top:6px */}
+footer p{color:#fff;font-family:Roboto;font-size:16px;margin-top: 15px;font-weight:400;line-height:22px;background:url(../img/gulf-logo.png) no-repeat right top;float:right;min-height: 42px;padding-right:209px;letter-spacing:.7px;padding-top:5px;margin-right:16px;/* background-size: contain; */}
 .ved_p1{/* width: 644px; */height:600px;/* background:#fff; */text-align:center;position:relative;/* padding:41px 161px 41px 106px */}
-.closes{background-image: url(../img/close.png);width: 60px;height: 60px;left:47px;background-color: white;top:41px;display: block;margin-top: 0px;margin-left: 0px;float: left;position: relative;z-index: 3;border-radius30px;border-radius: 30px;}
-.ved_p1 h2{color:#232323;font-size:24px;font-weight:600;line-height:47px;text-align:left;text-transform:none;letter-spacing:.9px}
-.ved_p1 p{color:#000;font-family:Ubuntu;font-size:14px;font-weight:400;line-height:23px;margin-top:22px;letter-spacing:.6px}
+.closes{background-image: url(../img/close.png);width: 60px;height: 60px;left: 10px;background-color: white;top: 0px;display: block;margin-top: 0px;margin-left: 0px;float: left;position: relative;z-index: 3;border-radius30px;border-radius: 30px;}
+.ved_p1 h2{color:#232323;font-size:24px;font-weight:600;line-height:47px;text-align:left;text-transform:none;letter-spacing:.9px;margin-bottom: 20px;}
+.ved_p1 p{color:#000;font-family:Ubuntu;font-size:14px;font-weight:400;line-height: 26px;margin-bottom: 20px;letter-spacing: .6px;}
 .gr_s{position:absolute}
 .stat{position:absolute}
 .stat.span{height:16px;margin:-8px 0;background:url(../img/line.png) repeat-x center;background-size:cover;display:none}
@@ -289,7 +289,7 @@ footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-heigh
     float: right;
     width: 570px;
     height: 100%;
-    padding: 50px 54px;
+    padding: 50px 50px 0px 0px;
     background: white;
     position: relative;
     z-index: 3;
@@ -300,18 +300,18 @@ footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-heigh
     position: absolute;
     width: 1920px;
     height: 100%;
-    right: 0;
+    left: 0;
     top: 0;
     z-index: 1;
     background: rgba(0, 0, 0, 0.7);
 }
 .infa_klik {
     position: absolute;
-    width: 698px;
+    width: 653px;
     display: inline-block;
     height: 100vh;
     right: 0;
-    /* background: white; */
+    background: white;
     z-index: -1;
     opacity: 0;
     right: -570px;
@@ -322,3 +322,37 @@ footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-heigh
 .list.s-visible{z-index: 2;opacity: 1;top: 0;}
 .list {-webkit-animation-delay: 0.5s;animation-delay: 0.5s;z-index: -2;width: 100%;height: 100%;/* margin-top: 86px; *//* top: 21%; */opacity: 0;}
 .nvis {display: none;}
+.foot_conf{
+    margin-top: 12px;
+    /* float: left; */
+    font-size: 16px;
+    font-weight: 300;
+    vertical-align: top;
+    display: inline-block;
+}
+.confbtn{
+    display: inline-block;
+    border-bottom: 1px dashed white;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.popap { display: inline-block; text-align: center; width: 357px; height: 346px; padding-top: 23px; background: url("../img/pop_fon.png") 50% 50% no-repeat rgb(240, 240, 241); }
+#conf_pop{
+    width: 800px;
+    background: rgb(36, 37, 41);
+    text-align: left;
+    padding: 28px;
+    height: inherit;
+}
+#conf_pop p{
+    margin: 10px 0;
+}
+.logo_f {
+    background: url(../img/logo_min.png) no-repeat center;
+    width: 225px;
+    min-height: 72px;
+    /* margin: 26px 0; */
+    /* display: inline-block; */
+    float: left;
+}
