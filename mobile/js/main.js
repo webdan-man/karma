@@ -21,7 +21,7 @@ $(document).ready(function() {
     });
 
     $('.video').click(function(){
-    	$(this).html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xW3fVjcgNvA?autoplay=1" frameborder="0" allowfullscreen></iframe>')
+    	$(this).html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xW3fVjcgNvA?autoplay=1;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>')
   	});
 
 
@@ -40,9 +40,11 @@ $(document).ready(function() {
     $('.btn_ml').click(function(){
         $('.pop_m').arcticmodal();
     });
-    $('.pop_m li a').click(function(){
-        $('.ved_p1').arcticmodal();
-    });
+
+    $('.pop_m li a').click(function(e){
+    e.preventDefault();
+    $('.ved_p1[data-numb="'+$(this).data('numb')+'"]').arcticmodal();
+  });
 
     $('.list .back1').click(function(e){
    e.preventDefault();

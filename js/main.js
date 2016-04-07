@@ -76,7 +76,7 @@ $('.slice .back_b2').click(function(e){
   });
 
   $('.video').click(function(){
-    $(this).html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xW3fVjcgNvA?autoplay=1" frameborder="0" allowfullscreen></iframe>')
+    $(this).html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xW3fVjcgNvA?autoplay=1;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>')
   });
 $('.confbtn').click(function(e) {
     e.preventDefault();

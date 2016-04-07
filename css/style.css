@@ -234,9 +234,12 @@ footer .wrap{min-height:0}
 footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-height:22px;/* float:left; *//* margin-left:-22px; */letter-spacing:.5px;/* margin-top:6px */}
 footer p{color:#fff;font-family:Roboto;font-size:16px;margin-top: 15px;font-weight:400;line-height:22px;background:url(../img/gulf-logo.png) no-repeat right top;float:right;min-height: 42px;padding-right:209px;letter-spacing:.7px;padding-top:5px;margin-right:16px;/* background-size: contain; */}
 .ved_p1{/* width: 644px; */height:600px;/* background:#fff; */text-align:center;position:relative;/* padding:41px 161px 41px 106px */}
-.closes{background-image: url(../img/close.png);width: 60px;height: 60px;left: 30px;background-color: white;top: 10px;display: block;margin-top: 0px;margin-left: 0px;float: left;position: relative;z-index: 3;border-radius30px;border-radius: 30px;}
-.ved_p1 h2{color:#232323;font-size:24px;font-weight:600;line-height:47px;text-align:left;text-transform:none;letter-spacing:.9px;margin-bottom: 20px;}
-.ved_p1 p{color:#000;font-family:Ubuntu;font-size:14px;font-weight:400;line-height: 26px;margin-bottom: 20px;letter-spacing: .6px;}
+.closes{background-image: url(../img/close.png);width: 60px;height: 60px;left: 10px;background-color: white;top: 10px;display: block;margin-top: 0px;margin-left: 0px;float: left;position: relative;z-index: 3;border-radius30px;border-radius: 30px;}
+.ved_p1 h2{color:#232323;font-size:24px;font-weight:600;line-height:47px;text-align:left;text-transform:none;letter-spacing:.9px;margin-bottom: 10px;}
+.ved_p1 p{color:#000;font-family:Ubuntu;font-size:14px;font-weight:400;line-height: 24px;margin-bottom: 10px;letter-spacing: .6px;}
+.ved_p1 p span{
+    font-weight: 600;
+}
 .gr_s{position:absolute}
 .stat{position:absolute}
 .stat.span{height:16px;margin:-8px 0;background:url(../img/line.png) repeat-x center;background-size:cover;display:none}
@@ -290,14 +293,13 @@ footer p{color:#fff;font-family:Roboto;font-size:16px;margin-top: 15px;font-weig
 }
 .infa {
     float: right;
-    width: 570px;
+    width: 88%;
     height: 100%;
-    padding: 50px 50px 0px 0px;
+    padding: 20px 50px 20px 0px;
     background: white;
     position: relative;
     z-index: 3;
     overflow: auto;
-    padding-bottom: 80px;
 }
 .infa_klik_overlay{
     position: absolute;
