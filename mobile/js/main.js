@@ -135,6 +135,7 @@ $('.opi3').click(function(e){
 
 $(window).load(function(){
 	slider1 = $('#sld1').bxSlider({pager:true,pagerCustom:'.str_slid1',controls:false, auto:false, speed: 400});
+    slider4 = $('#sld4').bxSlider({pager:false,controls:false, auto:false, speed: 400});
 	slider2 = $('#sld2').bxSlider({pager:true,pagerCustom:'.str_slid2',controls:false, auto:false, speed: 400,
 		onSlideBefore:function($slideElement, oldIndex, newIndex){
 			$('.star_w').addClass('fadeouted');
