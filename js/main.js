@@ -53,12 +53,19 @@ $(document).ready(function() {
     e.preventDefault();
     $(this).parent().arcticmodal('close');
   });
-$('.slice .back').click(function(e){
+$('.slice .back_b').click(function(e){
    e.preventDefault();
-    $('#list1').addClass('s-visible fadeInLeft animated');
+    $('#list1').addClass('s-visible');
     $('#list1').removeClass('nvis');
-    $('#list3').addClass('nvis');
-    $('#list3').removeClass('s-visible');
+    $('#list2').addClass('nvis');
+    $('#list2').removeClass('s-visible');
+  });
+$('.slice .back_b2').click(function(e){
+   e.preventDefault();
+    $('#list2').addClass('s-visible');
+    $('#list2').removeClass('nvis');
+    $('#list3, #list4').addClass('nvis');
+    $('#list3, #list4').removeClass('s-visible');
   });
   $("#sld-cont").draggable({axis:'x',containment:[60, 0, 591, 95] });
 	
@@ -69,7 +76,7 @@ $('.slice .back').click(function(e){
   });
 
   $('.video').click(function(){
-    $(this).html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/oSGfZQTPrM8?autoplay=1" frameborder="0" allowfullscreen></iframe>')
+    $(this).html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xW3fVjcgNvA?autoplay=1" frameborder="0" allowfullscreen></iframe>')
   });
 $('.confbtn').click(function(e) {
     e.preventDefault();
@@ -77,7 +84,7 @@ $('.confbtn').click(function(e) {
   });
   $('.opi').click(function(e){
    e.preventDefault();
-    $('#list2').addClass('s-visible fadeInRight animated');
+    $('#list2').addClass('s-visible');
     $('#list2').removeClass('nvis');
     $('#list1').addClass('nvis');
     $('#list1').removeClass('s-visible');
@@ -85,14 +92,14 @@ $('.confbtn').click(function(e) {
   });
   $('.opi2').click(function(e){
    e.preventDefault();
-    $('#list3').addClass('s-visible fadeInRight animated');
+    $('#list3').addClass('s-visible');
     $('#list3').removeClass('nvis');
     $('#list2').addClass('nvis');
     $('#list2').removeClass('s-visible');
   });
 $('.opi3').click(function(e){
    e.preventDefault();
-    $('#list4').addClass('s-visible fadeInRight animated');
+    $('#list4').addClass('s-visible');
     $('#list4').removeClass('nvis');
     $('#list2').addClass('nvis');
     $('#list2').removeClass('s-visible');

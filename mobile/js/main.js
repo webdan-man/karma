@@ -21,7 +21,7 @@ $(document).ready(function() {
     });
 
     $('.video').click(function(){
-    	$(this).html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/oSGfZQTPrM8?autoplay=1" frameborder="0" allowfullscreen></iframe>')
+    	$(this).html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xW3fVjcgNvA?autoplay=1" frameborder="0" allowfullscreen></iframe>')
   	});
 
 
@@ -44,9 +44,25 @@ $(document).ready(function() {
         $('.ved_p1').arcticmodal();
     });
 
+    $('.list .back1').click(function(e){
+   e.preventDefault();
+    $('#list1').addClass('s-visible');
+    $('#list1').removeClass('nvis');
+    $('#list2').addClass('nvis');
+    $('#list2').removeClass('s-visible');
+  });
+$('.list .back2').click(function(e){
+   e.preventDefault();
+    $('#list2').addClass('s-visible');
+    $('#list2').removeClass('nvis');
+    $('#list3, #list4').addClass('nvis');
+    $('#list3, #list4').removeClass('s-visible');
+  });
+
+
     $('.opi').click(function(e){
    e.preventDefault();
-    $('#list2').addClass('s-visible fadeInRight animated');
+    $('#list2').addClass('s-visible');
     $('#list2').removeClass('nvis');
     $('#list1').addClass('nvis');
     $('#list1').removeClass('s-visible');
@@ -54,14 +70,14 @@ $(document).ready(function() {
   });
   $('.opi2').click(function(e){
    e.preventDefault();
-    $('#list3').addClass('s-visible fadeInRight animated');
+    $('#list3').addClass('s-visible');
     $('#list3').removeClass('nvis');
     $('#list2').addClass('nvis');
     $('#list2').removeClass('s-visible');
   });
 $('.opi3').click(function(e){
    e.preventDefault();
-    $('#list4').addClass('s-visible fadeInRight animated');
+    $('#list4').addClass('s-visible');
     $('#list4').removeClass('nvis');
     $('#list2').addClass('nvis');
     $('#list2').removeClass('s-visible');

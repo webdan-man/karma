@@ -185,6 +185,7 @@ p{text-align:left}
 #s10s3{top:35.2%}
 #s10s32{top: 47%;}
 #s10s4{top:57.1%}
+.s10s5{top: 75.1%;}
 .sec10{background:url(../img/bg_sec10.jpg) no-repeat center;height:1100px;background-size:cover}
 .sec10 h2{color:#000;font-size:35px;line-height:42px;letter-spacing:1.3px}
 .sec10 h3{color:#000;font-family:"Amazing Grotesk";font-size: 30px;line-height: 35px;font-weight:900;letter-spacing:1.3px;}
@@ -233,7 +234,7 @@ footer .wrap{min-height:0}
 footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-height:22px;/* float:left; *//* margin-left:-22px; */letter-spacing:.5px;/* margin-top:6px */}
 footer p{color:#fff;font-family:Roboto;font-size:16px;margin-top: 15px;font-weight:400;line-height:22px;background:url(../img/gulf-logo.png) no-repeat right top;float:right;min-height: 42px;padding-right:209px;letter-spacing:.7px;padding-top:5px;margin-right:16px;/* background-size: contain; */}
 .ved_p1{/* width: 644px; */height:600px;/* background:#fff; */text-align:center;position:relative;/* padding:41px 161px 41px 106px */}
-.closes{background-image: url(../img/close.png);width: 60px;height: 60px;left: 10px;background-color: white;top: 0px;display: block;margin-top: 0px;margin-left: 0px;float: left;position: relative;z-index: 3;border-radius30px;border-radius: 30px;}
+.closes{background-image: url(../img/close.png);width: 60px;height: 60px;left: 30px;background-color: white;top: 10px;display: block;margin-top: 0px;margin-left: 0px;float: left;position: relative;z-index: 3;border-radius30px;border-radius: 30px;}
 .ved_p1 h2{color:#232323;font-size:24px;font-weight:600;line-height:47px;text-align:left;text-transform:none;letter-spacing:.9px;margin-bottom: 20px;}
 .ved_p1 p{color:#000;font-family:Ubuntu;font-size:14px;font-weight:400;line-height: 26px;margin-bottom: 20px;letter-spacing: .6px;}
 .gr_s{position:absolute}
@@ -260,6 +261,8 @@ footer p{color:#fff;font-family:Roboto;font-size:16px;margin-top: 15px;font-weig
 .star_b{background:url(../img/star_bim.png) no-repeat center;background-size:contain;width:28.32%;height:33.66%;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);z-index:10;position:absolute;z-index:2}
 .pop{background:#fff;max-width:600px;margin:0 auto;padding:56px 0;text-align:center}
 .back{color:#000;font-family:Roboto;font-size:25px;font-weight:400;line-height:47px;background:url(../img/back.png) no-repeat top center;display:inline-block;padding-top:32px;letter-spacing:1.2px}
+.back_b{color:#000;font-family:Roboto;font-size:25px;font-weight:400;/* line-height: 8px; */background: url(../img/back.png) no-repeat left;display:inline-block;/* padding-top:32px; */letter-spacing:1.2px;min-height: 28px;padding-left: 60px;}
+.back_b2{color:#000;font-family:Roboto;font-size:25px;font-weight:400;/* line-height: 8px; */background: url(../img/back.png) no-repeat left;display:inline-block;/* padding-top:32px; */letter-spacing:1.2px;min-height: 28px;padding-left: 60px;}
 .pop form{margin-top:118px}
 .pop form input{height:57px;margin-bottom:35px}
 .pop .btn_f{height:64px;margin-top:28px;margin-bottom:0;-webkit-transition:background-image .25s;transition:background-image .25s;background-position:left -3px top -3px}
@@ -307,7 +310,7 @@ footer p{color:#fff;font-family:Roboto;font-size:16px;margin-top: 15px;font-weig
 }
 .infa_klik {
     position: absolute;
-    width: 653px;
+    width: 55%;
     display: inline-block;
     height: 100vh;
     right: 0;
