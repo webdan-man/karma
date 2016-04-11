@@ -219,6 +219,8 @@ $('.closes').click(function(e){
   $('.str_lv').click(function(e){e.preventDefault();slider2.goToPrevSlide();});
   $('.str_rv').click(function(e){e.preventDefault();slider2.goToNextSlide();});
 });
+
+
 function initfullpage(){
 
   $('#pages').fullpage({
