@@ -1,10 +1,29 @@
 @font-face{font-family:'Amazing Grotesk';src:url(../fonts/amazing_grotesk_demi-webfont.eot);src:url(../fonts/amazing_grotesk_demi-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/amazing_grotesk_demi-webfont.woff2) format('woff2'),url(../fonts/amazing_grotesk_demi-webfont.woff) format('woff'),url(../fonts/amazing_grotesk_demi-webfont.ttf) format('truetype'),url(../fonts/amazing_grotesk_demi-webfont.svg#amazing_groteskdemibold) format('svg');font-weight:400;font-style:normal}
-@font-face{font-family:'Amazing Grotesk';src:url(../fonts/amazing_grotesk_ultra-webfont.eot);src:url(../fonts/amazing_grotesk_ultra-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/amazing_grotesk_ultra-webfont.woff2) format('woff2'),url(../fonts/amazing_grotesk_ultra-webfont.woff) format('woff'),url(../fonts/amazing_grotesk_ultra-webfont.ttf) format('truetype'),url(../fonts/amazing_grotesk_ultra-webfont.svg#amazing_groteskultra) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:'Amazing Grotesk';src:url(../fonts/amazing_grotesk_ultra-webfont.eot);src:url(../fonts/amazing_grotesk_ultra-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/amazing_grotesk_ultra-webfont.woff2) format('woff2'),url(../fonts/amazing_grotesk_ultra-webfont.woff) format('woff'),url(../fonts/amazing_grotesk_ultra-webfont.ttf) format('truetype'),url(../fonts/amazing_grotesk_ultra-webfont.svg#amazing_groteskultra) format('svg');font-weight:800;font-style:normal}
 *{margin:0;padding:0;box-sizing:border-box;background-position:center;background-repeat:no-repeat}
 :not(a):after,:not(a):before,:not(br):after,:not(br):before,:not(img):after,:not(img):before,:not(span):after,:not(span):before{content:" ";display:block;width:100%;height:0;clear:both}
 a:after,a:before,br:after,br:before,img:after,img:before,span:after,span:before,table:after,table:before,td:after,td:before,tr:after,tr:before{content:none}
 .wrap{position:relative;margin:0 auto;max-width:980px;width:100%;min-height:600px;min-width:980px;height:100%;z-index:2;text-align:center}
 .clear{clear:both}
+.fix-logo{
+    background: url(../img/log2.png) no-repeat left;
+    width: 64px;
+    height: 63px;
+    position: fixed;
+    z-index: 5;
+    transform: translateY(-50%);
+    margin-top: 462px;
+    top: 12%;
+    left: 50%;
+    margin-left: -589px;
+    display: none;
+}
+.fix-logo.scroll{
+    display: block;
+}
+.sec1 p.scroll{
+    background: none;
+}
 .section,section{width:100%;overflow:hidden;position:relative;z-index:1;min-width:980px;height:100vh!important}
 h1,h2,h3,h4,h5{font-size:1em;font-weight:inherit;text-align:center}
 body{font-weight:400;letter-spacing:.027em;font-family:Ubuntu,sans-serif;color:#fff}
@@ -133,7 +152,7 @@ p{text-align:left}
 .star_p1 p,.star_p16 p,.star_p17 p,.star_p18 p,.star_p2 p,.star_p3 p,.star_p4 p,.star_p5 p,.star_p6 p,.star_p7 p,.star_p8 p,.star_p9 p{background:url(../img/fon_star.png) no-repeat center;width:310px;height:139px;text-align:center;color:#000;font-family:Ubuntu;font-size:16px;font-weight:400;top:-100px;left:-133px;position:absolute;letter-spacing:.7px;line-height:19px;padding:50px 30px;background-size:cover;display:none}
 .star_p10 p,.star_p11 p,.star_p12 p,.star_p13 p,.star_p14 p,.star_p15 p{background:url(../img/fon_starb.png) no-repeat center;width:310px;height:139px;text-align:center;color:#000;font-family:Ubuntu;font-size:16px;font-weight:400;top:5px;left:-133px;position:absolute;letter-spacing:.7px;line-height:19px;padding:50px 30px;background-size:cover;display:none}
 .gr_s:hover span{display:inline-block}
-.gr_s:hover p{display:inline-block}
+.gr_s:hover p,.gr_s.active p{display:inline-block}
 #s6s1{top:11.2%}
 #s6s2{margin-top:118.8px;top:23.2%}
 #s6s3{margin-top:303.6px;top:37.4%}
