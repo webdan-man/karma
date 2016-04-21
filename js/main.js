@@ -243,6 +243,8 @@ function scroll_logo(){
 function initfullpage(){
 
   $('#pages').fullpage({
+    navigation: true,
+        autoScrolling: false,
       afterLoad: function(anchorLink, index){
             //$(this).find('.animation2').addClass('fadeInDown animated');
           },
