@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	$('<link rel="stylesheet" href="css/libs.min.css"><link rel="stylesheet" href="css/style.css"><link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300" rel="stylesheet">').appendTo('head');
+	$('<link rel="stylesheet" href="css/libs.min.css"><link rel="stylesheet" href="css/style.css"><link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300&subset=latin,cyrillic" rel="stylesheet" type="text/css">').appendTo('head');
 
 	setTimeout(function(){$('.animation').addClass('animated');},500);
 
