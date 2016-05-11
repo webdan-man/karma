@@ -5,7 +5,7 @@
 a:after,a:before,br:after,br:before,img:after,img:before,span:after,span:before,table:after,table:before,td:after,td:before,tr:after,tr:before{content:none}
 .wrap{position:relative;margin:0 auto;max-width:980px;width:100%;min-height:600px;min-width:980px;height:100%;z-index:2;text-align:center}
 .clear{clear:both}
-.fix-logo{background:url(../img/log2.png) no-repeat left;width:64px;height:63px;position:fixed;z-index:5;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-top:462px;top:12%;left:50%;margin-left:-589px;display:none}
+.fix-logo{background: url(../img/log2.png) no-repeat left;width:64px;height:63px;position:fixed;z-index:5;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-top:462px;top:12%;left:50%;margin-left:-589px;display:none;}
 .fix-logo.scroll{display:block}
 .sec1 p.scroll{background:0 0}
 .section,section{width:100%;overflow:hidden;position:relative;z-index:1;min-width:980px;height:100vh!important}
@@ -17,13 +17,13 @@ a{text-decoration:none;color:inherit;outline:0!important}
 #s1s2{margin-top:132px;top:11%}
 #s1s3{margin-top:462px;top:12%}
 .sec1{background:url(../img/bg_sec1.jpg) no-repeat center;background-size:cover;height:1100px}
-.logo{background:url(../img/logot.png) no-repeat top right 7%;width:100%;height:54px}
+.logo{/* background:url(../img/logot.png) no-repeat top right 7%; */width:100%;/* height:54px; */}
 h2{letter-spacing:2.9px;font-family:"Amazing Grotesk";text-transform:uppercase;font-weight:500}
 p{text-align:left}
 .sec1 h2{color:#000;letter-spacing:1px;font-size:37px;line-height:53px}
 .animation{position:relative;top:200px;opacity:0;-webkit-transition:opacity .5s ease-in-out .5s,top .9s linear .1s;transition:opacity .5s ease-in-out .5s,top .9s linear .1s}
 .fade-up-custom{top:0;opacity:1}
-.sec1 p{color:#000;font-family:Ubuntu;font-size:27px;font-weight:400;line-height:32px;background:url(../img/log2.png) no-repeat left;margin-left:-99px;padding-left:103px;letter-spacing:.5px;text-align:left;min-height:63px}
+.sec1 p{color:#000;font-family:Ubuntu;font-size:27px;font-weight:400;line-height:32px;background: url(../img/diamond.png) no-repeat left;margin-left:-99px;padding-left:103px;letter-spacing:.5px;text-align:left;min-height:63px;}
 #s2s1{margin-top:-92.4px;top:26.4%;z-index:2}
 #s2s2{margin-top:105.6px;top:43.4%}
 .sec2{background:#232323;height:1100px}
@@ -63,6 +63,8 @@ p{text-align:left}
 .klib_im10{background:url(../img/klib_him10.jpg) no-repeat center}
 .klib_im11{background:url(../img/klib_him11.jpg) no-repeat center}
 .klib_im12{background:url(../img/klib_him12.jpg) no-repeat center}
+.klib_im12{background:url(../img/klib_him13.jpg) no-repeat center}
+.klib_im12{background:url(../img/klib_him14.jpg) no-repeat center}
 #sld1,.klient_b .bx-viewport,.klient_b .bx-wrapper{height:100%!important;position:relative}
 .klient_b{width:297px;height:384px;margin-right:78px;position:relative;height:79.34%;top:10.94%;overflow:hidden}
 .p-sld1{position:absolute;left:0;top:0;display:none}
@@ -71,7 +73,7 @@ p{text-align:left}
 .str_l{background:url(../img/str_l.png) no-repeat center}
 .str_r{background:url(../img/str_r.png) no-repeat center}
 #sld1-pager{display:inline-block;margin:0 15px}
-.str_slid1{margin-top:37px;height:51px;text-align:center;position:absolute;left:45.9%;top:52%;width:400px}
+.str_slid1{margin-top:37px;height:51px;text-align:center;position:absolute;left:45.9%;top:52%;width: 438px;}
 .str_slid1 a{vertical-align:middle}
 .sli{width:14px;height:14px;background-color:#cdcdcd;-webkit-border-radius:7px;border-radius:7px;display:inline-block;margin:18px 3px;-webkit-transition:all .25s;transition:all .25s}
 .sli.active,.sli:hover{width:18px;height:18px;background-color:#f4846a;-webkit-border-radius:9px;border-radius:9px;margin:14px 1px}
@@ -89,6 +91,8 @@ p{text-align:left}
 .klis_im10{background:url(../img/klib_him10.jpg) no-repeat center}
 .klis_im11{background:url(../img/klib_him11.jpg) no-repeat center}
 .klis_im12{background:url(../img/klib_him12.jpg) no-repeat center}
+.klis_im12{background:url(../img/klib_him13.jpg) no-repeat center}
+.klis_im12{background:url(../img/klib_him14.jpg) no-repeat center}
 .klient_sgr a.active,.klient_sgr a:hover{-webkit-filter:grayscale(0);filter:grayscale(0)}
 .klient_sgr a{display:inline-block;width:88px;height:95px;background-size:cover!important;-webkit-filter:grayscale(100%);-webkit-transition:all .25s;transition:all .25s;cursor:pointer;filter:grayscale(100%)}
 #s4s1{margin-top:-26.4px;top:12.4%}
