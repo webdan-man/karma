@@ -17,13 +17,13 @@ a{text-decoration:none;color:inherit;outline:0!important}
 #s1s2{margin-top:132px;top:11%}
 #s1s3{margin-top:462px;top:12%}
 .sec1{background:url(../img/bg_sec1.jpg) no-repeat center;background-size:cover;height:1100px}
-.logo{/* background:url(../img/logot.png) no-repeat top right 7%; */width:100%;/* height:54px; */}
+.logo{background:url(../img/logot.png) no-repeat top right 7%;width:100%;height:54px;}
 h2{letter-spacing:2.9px;font-family:"Amazing Grotesk";text-transform:uppercase;font-weight:500}
 p{text-align:left}
 .sec1 h2{color:#000;letter-spacing:1px;font-size:37px;line-height:53px}
 .animation{position:relative;top:200px;opacity:0;-webkit-transition:opacity .5s ease-in-out .5s,top .9s linear .1s;transition:opacity .5s ease-in-out .5s,top .9s linear .1s}
 .fade-up-custom{top:0;opacity:1}
-.sec1 p{color:#000;font-family:Ubuntu;font-size:27px;font-weight:400;line-height:32px;background: url(../img/diamond.png) no-repeat left;margin-left:-99px;padding-left:103px;letter-spacing:.5px;text-align:left;min-height:63px;}
+.sec1 p{color:#000;font-family:Ubuntu;font-size:27px;font-weight:400;line-height:32px;background: url(../img/log2.png) no-repeat left;margin-left:-99px;padding-left:103px;letter-spacing:.5px;text-align:left;min-height:63px;}
 #s2s1{margin-top:-92.4px;top:26.4%;z-index:2}
 #s2s2{margin-top:105.6px;top:43.4%}
 .sec2{background:#232323;height:1100px}
@@ -63,8 +63,8 @@ p{text-align:left}
 .klib_im10{background:url(../img/klib_him10.jpg) no-repeat center}
 .klib_im11{background:url(../img/klib_him11.jpg) no-repeat center}
 .klib_im12{background:url(../img/klib_him12.jpg) no-repeat center}
-.klib_im12{background:url(../img/klib_him13.jpg) no-repeat center}
-.klib_im12{background:url(../img/klib_him14.jpg) no-repeat center}
+.klib_im13{background:url(../img/klib_him13.jpg) no-repeat center}
+.klib_im14{background:url(../img/klib_him14.jpg) no-repeat center}
 #sld1,.klient_b .bx-viewport,.klient_b .bx-wrapper{height:100%!important;position:relative}
 .klient_b{width:297px;height:384px;margin-right:78px;position:relative;height:79.34%;top:10.94%;overflow:hidden}
 .p-sld1{position:absolute;left:0;top:0;display:none}
@@ -77,7 +77,7 @@ p{text-align:left}
 .str_slid1 a{vertical-align:middle}
 .sli{width:14px;height:14px;background-color:#cdcdcd;-webkit-border-radius:7px;border-radius:7px;display:inline-block;margin:18px 3px;-webkit-transition:all .25s;transition:all .25s}
 .sli.active,.sli:hover{width:18px;height:18px;background-color:#f4846a;-webkit-border-radius:9px;border-radius:9px;margin:14px 1px}
-#sld-cont{width:200%}
+#sld-cont{width: 232.1%;}
 .klient_sgr{overflow:hidden;font-size:0;letter-spacing:0;width:531px;display:inline-block;float:right;margin-top:47px;position:absolute;bottom:0;height:95px;right:0}
 .klis_im1{background:url(../img/klib_him1.jpg) no-repeat center}
 .klis_im2{background:url(../img/klib_him2.jpg) no-repeat center}
@@ -91,8 +91,8 @@ p{text-align:left}
 .klis_im10{background:url(../img/klib_him10.jpg) no-repeat center}
 .klis_im11{background:url(../img/klib_him11.jpg) no-repeat center}
 .klis_im12{background:url(../img/klib_him12.jpg) no-repeat center}
-.klis_im12{background:url(../img/klib_him13.jpg) no-repeat center}
-.klis_im12{background:url(../img/klib_him14.jpg) no-repeat center}
+.klis_im13{background:url(../img/klib_him13.jpg) no-repeat center}
+.klis_im14{background:url(../img/klib_him14.jpg) no-repeat center}
 .klient_sgr a.active,.klient_sgr a:hover{-webkit-filter:grayscale(0);filter:grayscale(0)}
 .klient_sgr a{display:inline-block;width:88px;height:95px;background-size:cover!important;-webkit-filter:grayscale(100%);-webkit-transition:all .25s;transition:all .25s;cursor:pointer;filter:grayscale(100%)}
 #s4s1{margin-top:-26.4px;top:12.4%}
