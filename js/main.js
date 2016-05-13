@@ -1,3 +1,13 @@
+//мобильное устройство?
+var isMobile = false; 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+isMobile = true;
+}
+
+if (isMobile == true) {
+  $('.animation').addClass('animated');
+  $('<style>.animation,.animation *{transition:0s all 0s!important;animation-duration:0s!important;animation-delay:0s!important}.site-nav.down,.site-nav.up{display:none!important}header,section{height:800px!important}</style>').appendTo('head');
+}
 
 function move_right_pop(){
   var html_pop = $('#right-pop').html();
@@ -36,6 +46,7 @@ function close_right_pop(){
 $(document).ready(function() {
 
   $('<link rel="stylesheet" href="css/libs_old.min.css"><link rel="stylesheet" href="css/style.css"><link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300&subset=latin,cyrillic" rel="stylesheet" type="text/css">').appendTo('head');
+
 
   setTimeout(function(){
     if(!$('body').hasClass('loaded')) {
@@ -289,6 +300,7 @@ function scroll_logo(){
 }
 function initfullpage(){
 
+if (isMobile != true) {
   $('#pages').fullpage({
         autoScrolling: false,
       afterLoad: function(anchorLink, index){
@@ -311,4 +323,6 @@ function initfullpage(){
             if(index == 12){$('.fix-logo').hide();}else{$('.fix-logo').show();} 
       }
     });
+  }
 }
+
