@@ -24,8 +24,8 @@ p{text-align:left}
 .animation{position:relative;top:200px;opacity:0;-webkit-transition:opacity .5s ease-in-out .5s,top .9s linear .1s;transition:opacity .5s ease-in-out .5s,top .9s linear .1s}
 .fade-up-custom{top:0;opacity:1}
 .sec1 p{color:#000;font-family:Ubuntu;font-size:27px;font-weight:400;line-height:32px;background: url(../img/log2.png) no-repeat left;margin-left:-99px;padding-left:103px;letter-spacing:.5px;text-align:left;min-height:63px;}
-#s2s1{margin-top:-92.4px;top:26.4%;z-index:2}
-#s2s2{margin-top:105.6px;top:43.4%;height: 75%;}
+#s2s1{margin-top: -97.4px;top: 24.4%;z-index:2;}
+#s2s2{margin-top: 83.6px;top: 47.4%;height: 78%;}
 .sec2{background:#232323;height:1100px;position: relative;}
 .sec2 h2{font-size:35px;line-height:47px}
 .fon_silver{background:url(../img/bg_silver.png) no-repeat top center;width:769px;max-height:605px;display:inline-block;padding-left:68px;/* height:80vh; */height: 100%;}
