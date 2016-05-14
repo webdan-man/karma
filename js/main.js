@@ -6,7 +6,7 @@ isMobile = true;
 
 if (isMobile == true) {
   $('.animation').addClass('animated');
-  $('<style>.animation,.animation *{transition:0s all 0s!important;animation-duration:0s!important;animation-delay:0s!important}.site-nav.down,.site-nav.up{display:none!important}header,section{height:800px!important}</style>').appendTo('head');
+  $('<style>.animation,.animation *{transition:0s all 0s!important;animation-duration:0s!important;animation-delay:0s!important}.site-nav.down,.site-nav.up{display:none!important}header,section,.section{height:800px!important}section .star_gr{height: 650px!important;width: 774px!important;}</style>').appendTo('head');
 }
 
 function move_right_pop(){
