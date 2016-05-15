@@ -318,13 +318,54 @@ if (isMobile != true) {
       afterLoad: function(anchorLink, index){move_right_pop();
             if(index == 1){$('.site-nav.up').hide();}else{$('.site-nav.up').show();} 
             if(index == 12){$('.site-nav.down').hide();}else{$('.site-nav.down').show();} 
-            if(index == 3 || index == 4 || index == 6 || index == 7 || index == 9 || index == 10 || index == 12){$('.site-nav.up').addClass('black');}else{$('.site-nav.up').removeClass('black');} 
-            if(index == 1 || index == 3 || index == 4 || index == 6 || index == 7 || index == 9 || index == 10){$('.site-nav.down').addClass('black');}else{$('.site-nav.down').removeClass('black');} 
+            if(index == 1 || index == 3 || index == 4 || index == 6 || index == 7 || index == 9 || index == 10|| index == 12){$('.site-nav').addClass('black');}else{$('.site-nav').removeClass('black');} 
             if(index == 1){$('.site-nav.down').addClass('animation4');}else{$('.site-nav.down').removeClass('animation4');}
             if(index == 1){$('.site-nav.down').addClass('animated');}else{$('.site-nav.down').removeClass('animated');}
             if(index == 12){$('.fix-logo').hide();}else{$('.fix-logo').show();} 
       }
     });
-  }else{move_right_pop()}
+  }else{
+
+    move_right_pop();
+
+     //check_index()
+            //if(index == 1 || index == 3 || index == 4 || index == 6 || index == 7 || index == 9 || index == 10|| index == 12){$('.site-nav').addClass('black');}else{$('.site-nav').removeClass('black');}
+
+
+  }
 }
 
+    
+    var s_first = $('#pages>*').first();
+    var s_second = $('#pages>*').first().next();
+    var s_pre_last = $('#pages>*').last().prev();
+    var s_last = $('#pages>*').last();
+
+    var b_srolltop = $('body').scrollTop();
+
+    
+   function check_index(){
+
+      var ind_arr = [1,3,4,6,7,9,10,12];
+
+      $('#pages>*').each(function(index, el) {
+        index = index+1;
+        for (var i = ind_arr.length - 1; i >= 0; i--) {
+          if (index == ind_arr[i]) {
+            if(b_srolltop >=$(el).offset().top && b_srolltop < $(el).next().offset().top){$('.fix-logo').hide();}else{$('.fix-logo').show();} 
+          }
+        }
+      });
+
+    }
+
+$(window).scroll(function() {
+
+    b_srolltop = $('body').scrollTop();
+
+    if(b_srolltop< $(s_second).offset().top){$('.site-nav.up').hide();}else{$('.site-nav.up').show();} 
+    if(b_srolltop >=$(s_last).offset().top){$('.site-nav.down').hide();}else{$('.site-nav.down').show();} 
+    if(b_srolltop >=$(s_last).offset().top){$('.fix-logo').hide();}else{$('.fix-logo').show();} 
+    
+    check_index()
+});
