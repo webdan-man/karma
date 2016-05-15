@@ -144,9 +144,11 @@
        <a href="" class="sli" data-slide-index="12"></a>
        <a href="" class="sli" data-slide-index="13"></a>
       </div>
+
       <a href="" class="right str str_r"></a>
      </div>
      <div class="klient_sgr">
+     <div id="sld1-cont-w">
       <div id="sld-cont">
        <a href="" class="klis_im1 klis_im" data-sld="0"></a>
        <a href="" class="klis_im2 klis_im" data-sld="1"></a>
@@ -162,6 +164,7 @@
        <a href="" class="klis_im12 klis_im" data-sld="11"></a>
        <a href="" class="klis_im13 klis_im" data-sld="12"></a>
        <a href="" class="klis_im14 klis_im" data-sld="13"></a>
+      </div>
       </div>
      </div>
     </div>

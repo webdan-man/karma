@@ -77,7 +77,12 @@ p{text-align:left}
 .str_slid1 a{vertical-align:middle}
 .sli{width:14px;height:14px;background-color:#cdcdcd;-webkit-border-radius:7px;border-radius:7px;display:inline-block;margin:18px 3px;-webkit-transition:all .25s;transition:all .25s}
 .sli.active,.sli:hover{width:18px;height:18px;background-color:#f4846a;-webkit-border-radius:9px;border-radius:9px;margin:14px 1px}
-#sld-cont{width: 232.1%;}
+#sld1-cont-w{
+    width: 1936px;
+    height: 95px;
+    margin-left: -704px;
+}
+#sld-cont{width: 1232px;}
 .klient_sgr{overflow:hidden;font-size:0;letter-spacing:0;width:531px;display:inline-block;/* float:right; */margin-top:47px;position:absolute;bottom:0;height:95px;right: 0;}
 .klis_im1{background:url(../img/klib_him1.jpg) no-repeat center}
 .klis_im2{background:url(../img/klib_him2.jpg) no-repeat center}
@@ -290,7 +295,7 @@ footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-heigh
 .sec2 .fp-tableCell{position:relative;z-index:3;right:0;-webkit-transition:all .5s;transition:all .5s}
 .infa{float:right;width:88%;height:100%;padding:20px 50px 20px 0;background:#fff;position:relative;z-index:3;overflow:auto}
 .infa_klik_overlay{position:absolute;width:1920px;height:100%;left:0;top:0;z-index:1;background:rgba(0,0,0,.7)}
-.infa_klik{position: absolute;width:55%;display:inline-block;height:100vh;right:0;background:#fff;z-index:-1;opacity:0;right:-570px;-webkit-transition:all .5s;transition:all .5s;/* height: 100%; */}
+.infa_klik{position: absolute;/* top: 0px; */width:55%;display:inline-block;height:100vh;right:0;background:#fff;z-index:-1;opacity:0;right:-570px;-webkit-transition:all .5s;transition:all .5s;/* height: 100%; *//* height: 600px; */}
 .list.s-visible{z-index:2;opacity:1;top:0;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
 .list{-webkit-animation-delay:.5s;animation-delay:.5s;z-index:-2;position:absolute;width:100%;-webkit-transition:all .35s;transition:all .35s;height:100%;opacity:0}
 .nvis{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);z-index:-1}
