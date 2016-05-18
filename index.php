@@ -515,7 +515,7 @@
       </div>
     </div>
     <div class="list nvis" id="list2">
-      <div class="slice" id="s10s2">
+      <div class="slice" id="s10s2n2">
         <h3>Для достижения цели вы готовы…</h3>
       </div>
       <div class="slice" id="s10s32">
@@ -529,10 +529,10 @@
       </div>
     </div>
     <div class="list nvis" id="list3">
-      <div class="slice" id="s10s2">
+      <div class="slice" id="s10s2n3">
         <h3>Заполните форму и узнайте все<br> подробности о тренинге</h3>
       </div>
-      <div class="slice" id="s10s32">
+      <div class="slice" id="s10s32n2">
         <div class="lis_p">
     <form action="ajax/mail.php" method="post">
      <input type="text" name="name" placeholder="Введите имя">
@@ -546,10 +546,10 @@
       </div>
     </div>
     <div class="list nvis" id="list4">
-      <div class="slice" id="s10s2">
+      <div class="slice" id="s10s2n4">
         <h3>Подписаться на рассылку</h3>
       </div>
-      <div class="slice" id="s10s32">
+      <div class="slice" id="s10s32n3">
         <div class="lis_p">
     <form action="ajax/mail.php" method="post">
      <input type="text" name="name" placeholder="Введите имя">

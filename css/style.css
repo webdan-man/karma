@@ -185,7 +185,7 @@ p{text-align:left}
 .sec8 .right h3{text-align:right}
 .sec8 .right p{margin-left:78px}
 .sec8 .left p{margin-left:-8px}
-.tex p{color:#afafaf;font-family:Roboto;font-size:20px;font-weight:400;line-height:28px;background:url(../img/done.png) no-repeat 0 1px;padding-left:111px;min-height:68px;letter-spacing:.8px}
+.tex p{color:#afafaf;font-family: 'Roboto', sans-serif;font-size:20px;font-weight:400;line-height:28px;background:url(../img/done.png) no-repeat 0 1px;padding-left:111px;min-height:68px;letter-spacing:.8px}
 #s9s1{margin-top:-39.6px;top:16.6%}
 #s9s2{max-height:733px;height:81%;margin-top:79.2px;top:45.8%}
 .sec9{background:url(../img/bg_sec9.jpg) no-repeat center;height:1100px;background-size:cover;position: relative;}
@@ -194,8 +194,13 @@ p{text-align:left}
 .play{color:#fff;font-family:"Amazing Grotesk";font-size:29px;font-weight:400;line-height:47px;background:url(../img/play.png) no-repeat top center;padding-top:83px;position:absolute;bottom:50%;right:126px;margin-bottom:-65px;letter-spacing:1.8px}
 #s10s1{margin-top:-39.6px;top:13.6%}
 #s10s2{margin-top:-52px;top:26%}
+#s10s2n2{margin-top:-52px;top:26%}
+#s10s2n3{margin-top:-52px;top:26%}
+#s10s2n4{margin-top:-52px;top:26%}
 #s10s3{top:35.2%}
 #s10s32{top:47%}
+#s10s32n2{top:47%}
+#s10s32n3{top:47%}
 #s10s4{top:57.1%}
 .s10s5{top:75.1%}
 .sec10{background:url(../img/bg_sec10.jpg) no-repeat center;height:1100px;background-size:cover;position: relative;}
@@ -243,8 +248,8 @@ input::-moz-placeholder{color:#6a6a6a;font-family:Ubuntu;font-size:18px;font-wei
 .btn_f:hover{background-image:url(../img/btn_fh.png)}
 footer{background:#242529;padding:10px 0;position:absolute;bottom:0;width:100%;text-align:center;z-index:3}
 footer .wrap{min-height:0}
-footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-height:22px;letter-spacing:.5px}
-.gulf{color:#fff;font-family:Roboto;font-size:16px;margin-top:5px;min-width:228px;font-weight:400;line-height:22px;background:url(../img/gulf-logo.png) no-repeat bottom;float:right;min-height:70px;padding-right:20px;text-align:right;letter-spacing:.7px;padding-top:0;margin-right:10px}
+footer a{color:#fff;font-family: 'Roboto', sans-serif;font-size:16px;font-weight:400;line-height:22px;letter-spacing:.5px}
+.gulf{color:#fff;font-family: 'Roboto', sans-serif;font-size:16px;margin-top:5px;min-width:228px;font-weight:400;line-height:22px;background:url(../img/gulf-logo.png) no-repeat bottom;float:right;min-height:70px;padding-right:20px;text-align:right;letter-spacing:.7px;padding-top:0;margin-right:10px}
 .ved_p1{height:600px;text-align:center;position:relative}
 .closes{background-image:url(../img/close.png);width:60px;height:60px;left:10px;background-color:#fff;top:10px;display:block;margin-top:0;margin-left:0;float:left;position:relative;z-index:3;-webkit-border-radius:30px;border-radius:30px}
 .ved_p1 h2{color:#232323;font-size:24px;font-weight:400;line-height:47px;text-align:left;text-transform:none;letter-spacing:.9px;margin-bottom:10px}
@@ -273,9 +278,9 @@ footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-heigh
 .star_p18.span{left:33.5%;bottom:3%;min-width:43%;-webkit-transform:rotate(-67deg);-ms-transform:rotate(-67deg);transform:rotate(-67deg);-webkit-transform-origin:center left;-ms-transform-origin:center left;transform-origin:center left}
 .star_b{background:url(../img/star_bim.png) no-repeat center;background-size:contain;width:28.32%;height:33.66%;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);z-index:10;position:absolute;z-index:2}
 .pop{background:#fff;max-width:600px;margin:0 auto;padding:56px 0;text-align:center}
-.back{color:#000;font-family:Roboto;font-size:25px;font-weight:400;line-height:47px;background:url(../img/back.png) no-repeat top center;display:inline-block;padding-top:32px;letter-spacing:1.2px}
-.back_b{color:#000;font-family:Roboto;font-size:25px;font-weight:400;background:url(../img/back.png) no-repeat left;display:inline-block;letter-spacing:1.2px;min-height:28px;padding-left:60px}
-.back_b2{color:#000;font-family:Roboto;font-size:25px;font-weight:400;background:url(../img/back.png) no-repeat left;display:inline-block;letter-spacing:1.2px;min-height:28px;padding-left:60px}
+.back{color:#000;font-family: 'Roboto', sans-serif;font-size:25px;font-weight:400;line-height:47px;background:url(../img/back.png) no-repeat top center;display:inline-block;padding-top:32px;letter-spacing:1.2px}
+.back_b{color:#000;font-family: 'Roboto', sans-serif;font-size:25px;font-weight:400;background:url(../img/back.png) no-repeat left;display:inline-block;letter-spacing:1.2px;min-height:28px;padding-left:60px}
+.back_b2{color:#000;font-family: 'Roboto', sans-serif;font-size:25px;font-weight:400;background:url(../img/back.png) no-repeat left;display:inline-block;letter-spacing:1.2px;min-height:28px;padding-left:60px}
 .pop form{margin-top:118px}
 .pop form input{height:57px;margin-bottom:35px}
 .pop .btn_f{height:64px;margin-top:28px;margin-bottom:0;-webkit-transition:background-image .25s;transition:background-image .25s;background-position:left -3px top -3px}
@@ -291,7 +296,7 @@ footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-heigh
 .lis_p{max-width:440px;margin:0 auto;text-align:center}
 .lis_p form input{height:50px;margin-bottom:20px}
 .lis_p .btn_f{height:64px;margin-top:10px;margin-bottom:0;-webkit-transition:background-image .25s;transition:background-image .25s;background-position:left -3px top -3px}
-.slice .back{color:#000;font-family:Roboto;font-size:25px;font-weight:400;line-height:47px;background:url(../img/back.png) no-repeat top center;display:inline-block;padding-top:15px;letter-spacing:1.2px}
+.slice .back{color:#000;font-family: 'Roboto', sans-serif;font-size:25px;font-weight:400;line-height:47px;background:url(../img/back.png) no-repeat top center;display:inline-block;padding-top:15px;letter-spacing:1.2px}
 .sec2 .fp-tableCell{position:relative;z-index:3;right:0;-webkit-transition:all .5s;transition:all .5s}
 .infa{float:right;width:88%;height:100%;padding:20px 50px 20px 0;background:#fff;position:relative;z-index:3;overflow:auto}
 .infa_klik_overlay{position:absolute;width:1920px;height:100%;left:0;top:0;z-index:1;background:rgba(0,0,0,.7)}

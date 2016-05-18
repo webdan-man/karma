@@ -176,7 +176,7 @@ p{text-align:left}
 .tex h3.active{color:#fff}
 .tex h3 span{width:14px;height:14px;-webkit-border-radius:7px;border-radius:7px;border:3px solid #676767;display:inline-block;cursor:pointer;-webkit-transition:all .25s;transition:all .25s}
 .tex h3.active span{width:14px;height:14px;background-color:#fff;border:3px solid #fff}
-.tex p{background:url(../img/done.png) no-repeat 0 0;padding-left:90px;min-height:68px;letter-spacing:.7px;margin-bottom:36px;color:#afafaf;font-family:Roboto;font-size:18px;font-weight:400;margin-top:19px;line-height:28px}
+.tex p{background:url(../img/done.png) no-repeat 0 0;padding-left:90px;min-height:68px;letter-spacing:.7px;margin-bottom:36px;color:#afafaf;font-family: 'Roboto', sans-serif;font-size:18px;font-weight:400;margin-top:19px;line-height:28px}
 .sec9{background:url(../img/bg_sec9.jpg) no-repeat top center;height:501px}
 .sec9 h2{color:#000;font-size:21px;line-height:31px;text-transform:none;letter-spacing:1.5px;padding:18px 100px;font-weight:400}
 .sec9 .wrap{max-width:1200px}
@@ -213,8 +213,8 @@ input::-moz-placeholder{color:#6a6a6a;font-family:Ubuntu;font-size:18px;font-wei
 .btn_f{width:371px;height:64px;background:#6c6c6c;color:#fff!important;font-family:Ubuntu;font-size:24px;font-weight:400;line-height:33px;-webkit-border-radius:30px;border-radius:30px;letter-spacing:1px;padding:0;cursor:pointer;margin-top:19px}
 .btn_f:hover{background:url(../img/btn_fh.png) no-repeat center;color:#fff}
 footer{background-color: #2a2a2a;width:100%;padding-bottom:39px;position: relative;/* height: 100%; */height: 217px;overflow: hidden;z-index: 1;}
-footer a{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-height:22px;float:left;margin-left:-22px;letter-spacing:.5px;margin-top:6px}
-footer p{color:#fff;font-family:Roboto;font-size:16px;font-weight:400;line-height:22px;background:url(../img/gulf-logo.png) no-repeat right top;min-height:45px;letter-spacing:.7px;display:inline-block;float:right;text-align:right;padding-right:237px;margin-right:65px;margin-top:6px;padding-top:10px}
+footer a{color:#fff;font-family: 'Roboto', sans-serif;font-size:16px;font-weight:400;line-height:22px;float:left;margin-left:-22px;letter-spacing:.5px;margin-top:6px}
+footer p{color:#fff;font-family: 'Roboto', sans-serif;font-size:16px;font-weight:400;line-height:22px;background:url(../img/gulf-logo.png) no-repeat right top;min-height:45px;letter-spacing:.7px;display:inline-block;float:right;text-align:right;padding-right:237px;margin-right:65px;margin-top:6px;padding-top:10px}
 #mak{width:100%;height:1100px;background:url(../img/mak2.jpg) no-repeat center top;opacity:.4;position:absolute;top:13199px;left:0;z-index:4}
 .ved_p1{width:100%;min-height:800px;background:#fff;text-align:center;position:relative;padding:38px 30px 30px 68px}
 .pop{background:#fff;text-align:center;position:relative;padding:50px}
