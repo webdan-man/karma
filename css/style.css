@@ -5,7 +5,7 @@
 a:after,a:before,br:after,br:before,img:after,img:before,span:after,span:before,table:after,table:before,td:after,td:before,tr:after,tr:before{content:none}
 .wrap{position:relative;margin:0 auto;max-width:980px;width:100%;min-height:600px;min-width:980px;height:100%;z-index:2;text-align:center}
 .clear{clear:both}
-.fix-logo{background: url(../img/log2.png) no-repeat left;width:64px;height:63px;position:fixed;z-index:5;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-top:462px;top:12%;left:50%;margin-left:-589px;display:none;}
+.fix-logo{background: url(../img/log.png) no-repeat left;width:64px;height:63px;position:fixed;z-index:5;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-top:462px;top:12%;left:50%;margin-left:-589px;display:none;}
 .fix-logo.scroll{display:block}
 .sec1 p.scroll{background:0 0}
 .section,section{width:100%;overflow:hidden;position:relative;z-index:1;min-width:980px;/* height:100vh!important; */}
@@ -17,13 +17,13 @@ a{text-decoration:none;color:inherit;outline:0!important}
 #s1s2{margin-top:132px;top:11%}
 #s1s3{margin-top:462px;top:12%}
 .sec1{background:url(../img/bg_sec1.jpg) no-repeat center;background-size:cover;height:1100px;position: relative;}
-.logo{background: url(../img/logot.png) no-repeat top right 7%;width:100%;height:54px;}
+.logo{background: url(../img/logo.png) no-repeat top center;width:100%;height: 91px;}
 h2{letter-spacing:2.9px;font-family:"Amazing Grotesk";text-transform:uppercase;font-weight:500}
 p{text-align:left}
 .sec1 h2{color:#000;letter-spacing:1px;font-size:37px;line-height:53px}
 .animation{position:relative;top:200px;opacity:0;-webkit-transition:opacity .5s ease-in-out .5s,top .9s linear .1s;transition:opacity .5s ease-in-out .5s,top .9s linear .1s}
 .fade-up-custom{top:0;opacity:1}
-.sec1 p{color:#000;font-family:Ubuntu;font-size:27px;font-weight:400;line-height:32px;background: url(../img/log2.png) no-repeat left;margin-left:-99px;padding-left:103px;letter-spacing:.5px;text-align:left;min-height:63px;}
+.sec1 p{color:#000;font-family:Ubuntu;font-size:27px;font-weight:400;line-height:32px;background: url(../img/diamond.png) no-repeat left;margin-left:-99px;padding-left:103px;letter-spacing:.5px;text-align:left;min-height:63px;}
 #s2s1{margin-top: -97.4px;top: 24.4%;z-index:2;}
 #s2s2{margin-top: 83.6px;top: 47.4%;height: 78%;}
 .sec2{background:#232323;height:1100px;position: relative;}
@@ -350,8 +350,8 @@ header{position:fixed;width:100%;margin:0 auto;height:100px;bottom:10.7%;z-index
 .menu-btn:hover{-webkit-transform:rotate(-180deg);-ms-transform:rotate(-180deg);transform:rotate(-180deg)}
 .menu-btn.active{margin-left:0}
 .menu-btn.as-close{background-image:url(../img/close-menu.png);-webkit-transform:rotate(-360deg);-ms-transform:rotate(-360deg);transform:rotate(-360deg)}
-.menu{position:fixed;top:0;left:0;background:rgba(0,0,0,.75);z-index:20;padding:60px 0 15px;-webkit-transition:all .25s;transition:all .25s;-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);text-align:left}
+.menu{position:fixed;top:0;left:0;background: rgb(144, 144, 144);z-index:20;padding:60px 0 15px;-webkit-transition:all .25s;transition:all .25s;-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);text-align:left;height: 100vh;width: 30%;padding-left: 25px;/* box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.2); */}
 .menu.active{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}
-.menu a.menu-a{display:block;color:#fff;height:36px;font-size:17px;padding:0 25px 0 15px;-webkit-transition:all .25s;transition:all .25s;background:0 0;width:260px;line-height:36px}
-.menu a.menu-a:hover{background:rgba(255,255,255,.1)}
+.menu a.menu-a{display:block;color: white;height:36px;font-size:17px;padding:0 25px 0 15px;-webkit-transition:all .25s;transition:all .25s;background:0 0;width:260px;line-height:36px;}
+.menu a.menu-a:hover{background: rgba(255, 255, 255, 0.8);color: black;}
 .black:after{background:rgba(0,0,0,.15)!important;-webkit-transition:all .25s;transition:all .25s}

@@ -242,7 +242,7 @@ $(window).load(function(){
   if (!$('body').hasClass('loaded')) {
     $('body').addClass('loaded');
     initfullpage();
-    scroll_logo();
+   // scroll_logo();
   };
 
 $('.closes').click(function(e){
@@ -285,7 +285,7 @@ $('.closes').click(function(e){
   $('.str_lv').click(function(e){e.preventDefault();slider2.goToPrevSlide();});
   $('.str_rv').click(function(e){e.preventDefault();slider2.goToNextSlide();});
 });
-
+/*
 $(window).scroll(function(){
   scroll_logo()
 });
@@ -299,7 +299,7 @@ function scroll_logo(){
     $('.sec1 p').removeClass('scroll');
     $('.fix-logo').removeClass('scroll');    
   }
-}
+}*/
 function initfullpage(){
 
 if (isMobile != true) {
@@ -321,7 +321,7 @@ if (isMobile != true) {
             if(index == 1 || index == 3 || index == 4 || index == 6 || index == 7 || index == 9 || index == 10|| index == 12){$('.site-nav').addClass('black');}else{$('.site-nav').removeClass('black');} 
             if(index == 1){$('.site-nav.down').addClass('animation4');}else{$('.site-nav.down').removeClass('animation4');}
             if(index == 1){$('.site-nav.down').addClass('animated');}else{$('.site-nav.down').removeClass('animated');}
-            if(index == 12){$('.fix-logo').hide();}else{$('.fix-logo').show();} 
+            //if(index == 12){$('.fix-logo').hide();}else{$('.fix-logo').show();} 
       }
     });
   }else{
@@ -343,7 +343,7 @@ if (isMobile != true) {
 
     var b_srolltop = $('body').scrollTop();
 
-    
+   /* 
    function check_index(){
 
       var ind_arr = [1,3,4,6,7,9,10,12];
@@ -358,6 +358,7 @@ if (isMobile != true) {
       });
 
     }
+    */
 
 $(window).scroll(function() {
 
@@ -365,7 +366,7 @@ $(window).scroll(function() {
 
     if(b_srolltop< $(s_second).offset().top){$('.site-nav.up').hide();}else{$('.site-nav.up').show();} 
     if(b_srolltop >=$(s_last).offset().top){$('.site-nav.down').hide();}else{$('.site-nav.down').show();} 
-    if(b_srolltop >=$(s_last).offset().top){$('.fix-logo').hide();}else{$('.fix-logo').show();} 
+   // if(b_srolltop >=$(s_last).offset().top){$('.fix-logo').hide();}else{$('.fix-logo').show();} 
     
-    check_index()
+   // check_index()
 });

@@ -6,7 +6,7 @@
  <title>KARMA</title>
  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
  <script type="text/javascript">if (screen.width <= 699) {document.location = "mobile/"+document.location.search;}</script>
- <style><? include('css/head.css'); ?></style>
+ <style><?php include('css/head.css'); ?></style>
 </head>
 <body>
 <div id="loader-wrapper">
@@ -19,7 +19,7 @@
   <div class="loader-section section-right"></div>
 </div>
 <script>if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){document.getElementById("loader-wrapper").style.display="none"}</script>
-<div class="fix-logo"></div>
+<!--div class="fix-logo"></div-->
 <div class="site-nav up"></div>
  <div class="site-nav down"></div>
 <div id="pages">
