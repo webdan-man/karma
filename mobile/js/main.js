@@ -76,31 +76,31 @@ $('.menu .menu-a').click(function(e){
     $('.ved_p1[data-numb="'+$(this).data('numb')+'"]').arcticmodal();
   });
 
-    $('.list .back1').click(function(e){
+   /* $('.list .back1').click(function(e){
    e.preventDefault();
     $('#list1').addClass('s-visible');
     $('#list1').removeClass('nvis');
     $('#list2').addClass('nvis');
     $('#list2').removeClass('s-visible');
-  });
+  });*/
 $('.list .back2').click(function(e){
    e.preventDefault();
-    $('#list2').addClass('s-visible');
-    $('#list2').removeClass('nvis');
-    $('#list3, #list4').addClass('nvis');
-    $('#list3, #list4').removeClass('s-visible');
+    $('#list1').addClass('s-visible');
+    $('#list1').removeClass('nvis');
+    $('#list3').addClass('nvis');
+    $('#list3').removeClass('s-visible');
   });
 
 
     $('.opi').click(function(e){
    e.preventDefault();
-    $('#list2').addClass('s-visible');
-    $('#list2').removeClass('nvis');
+    $('#list3').addClass('s-visible');
+    $('#list3').removeClass('nvis');
     $('#list1').addClass('nvis');
     $('#list1').removeClass('s-visible');
 
   });
-  $('.opi2').click(function(e){
+  /*$('.opi2').click(function(e){
    e.preventDefault();
     $('#list3').addClass('s-visible');
     $('#list3').removeClass('nvis');
@@ -113,7 +113,7 @@ $('.opi3').click(function(e){
     $('#list4').removeClass('nvis');
     $('#list2').addClass('nvis');
     $('#list2').removeClass('s-visible');
-  });
+  });*/
 
   function getURLParameter(name) {return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;} 
     function run_geo(geo_url){
@@ -186,6 +186,6 @@ $(window).load(function(){
       	}
 	});
 	slider3 = $('#sld3').bxSlider({pager:true,pagerCustom:'.oval_gr',controls:false, auto:false, speed: 400});
-	
+	slider5 = $('#sld5').bxSlider({pager:true,pagerCustom:'.oval_ci',controls:false, auto:false, speed: 400});
 	
 });
