@@ -190,7 +190,7 @@ p{text-align:left}
 .form_gr a{width:350px;height:113px;border:2px solid #fefefe;display:inline-block;margin-bottom:2px;color:#fefefe;font-family:Ubuntu;font-size:22px;font-weight:400;line-height:29px;text-align:center;padding-top:initial;vertical-align:top;letter-spacing:1.7px;padding:23px 0}
 .form_gr a:hover{background-color:#fefefe;border:2px solid #fefefe;color:#0d1924}
 .sec11{background:url(../img/bg_sec11.jpg) no-repeat center;height:543px}
-.sec11 h2{font-size:22px;line-height:31px;text-transform:none;letter-spacing:.9px;margin:31px 0}
+.sec11 h2{font-size:22px;line-height:31px;text-transform:none;letter-spacing:.9px;margin: 80px 0 50px;}
 .vid_otz{background: url(../img/vid.jpg) no-repeat top center;height:270px;position:relative;background-size: cover;}
 .play_v{background:url(../img/play_v.png) no-repeat top center;width:88px;height:67px;position:absolute;top:50%;margin-top:-36px;left:50%;margin-left:-44px}
 .str_lv{background:url(../img/str_lv.png) no-repeat top center;width:31px;height:103px;left:0;position:absolute;top:50%;margin-top:-52px}
