@@ -211,8 +211,8 @@ p{text-align:left}
 .form_gr a:hover{border:2px solid #fefefe;color:#0d1924}
 .form_gr a:hover:after{top:0}
 .form_gr a:after{content:"";width:100%;height:100%;position:absolute;background:#fff;display:block;left:0;top:-100%;-webkit-transition:all .25s;transition:all .25s;z-index:-1}
-#s11s1{margin-top:-66px;top:18%}
-#s11s2{margin-top: 26.4px;top: 41.6%;max-height:448px;height:60%;}
+#s11s1{margin-top: -145.2px;top: 33.199999999999996%;}
+#s11s2{margin-top: 66px;top: 44%;max-height:448px;height: 75%;}
 #s11s3{margin-top: 132px;top: 68%;/* top: 90%; */}
 #s11s4{margin-top:66px;top:84%}
 .sec11{background:url(../img/bg_sec11.jpg) no-repeat center;height:1100px;position: relative;}

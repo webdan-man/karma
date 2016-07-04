@@ -622,13 +622,13 @@
  <section class="sec11 section" id="sec11">
   <div class="wrap">
    <div class="slice" id="s11s1">
-    <h2>Выступление Алексея Ситникова<br> на тему судьбы</h2>
+    <h2>Алексей Ситников во Владивостоке</h2>
    </div>
    <div class="slice" id="s11s2">
     <div class="vid_otz">
      <div class="sld2w">
       <div id="sld2">
-       <div class="sld2sld sld2sld1" data-video="Ap2wj9MRsjI"><a href="javascript:void(0)" class="play_v"></a></div>
+       <div class="sld2sld sld2sld1" data-video="rQdbFpPe0GY"><a href="javascript:void(0)" class="play_v"></a></div>
        <!--div class="sld2sld sld2sld2" data-video="oSGfZQTPrM8"><a href="javascript:void(0)" class="play_v"></a></div>
        <div class="sld2sld sld2sld3" data-video="oSGfZQTPrM8"><a href="javascript:void(0)" class="play_v"></a></div-->
       </div>
@@ -637,9 +637,9 @@
      <a href="javascript:void(0)" class="str_rv"></a-->
     </div>
    </div>
-   <div class="slice" id="s11s3">
+   <!--div class="slice" id="s11s3">
     <h3>Мастер-класс в Москве для молодых предпринимателей в рамках проекта "Миллион за 100" "Бизнес Молодости"</h3>
-   </div>
+   </div-->
    <!--div class="slice" id="s11s4">
     <div class="oval_gr">
      <a href="" data-slide-index="0"></a>
