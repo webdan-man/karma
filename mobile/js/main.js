@@ -82,7 +82,7 @@ $('.menu .menu-a').click(function(e){
     $('#list1').removeClass('nvis');
     $('#list2').addClass('nvis');
     $('#list2').removeClass('s-visible');
-  });*/
+  });
 $('.list .back2').click(function(e){
    e.preventDefault();
     $('#list1').addClass('s-visible');
@@ -185,7 +185,7 @@ $(window).load(function(){
         	$('.star_w.active').removeClass('fadeouted');
       	}
 	});
-	slider3 = $('#sld3').bxSlider({pager:true,pagerCustom:'.oval_gr',controls:false, auto:false, speed: 400});
+	//slider3 = $('#sld3').bxSlider({pager:true,pagerCustom:'.oval_gr',controls:false, auto:false, speed: 400});
 	slider5 = $('#sld5').bxSlider({pager:true,pagerCustom:'.oval_ci',controls:false, auto:false, speed: 400});
 	
 });

@@ -469,7 +469,7 @@
        <div class="sld3sld sld3sld5">
          <div class="fone_city">
            <h4>Пномпень. Камбоджа</h4>
-           <p>Декабрь 2016</p>
+           <p>Сентябрь 2017</p>
          </div>
        </div>
       </div>
@@ -479,7 +479,7 @@
     </div>
    </div>
    <div class="slice" id="s_sls3">
-    <h3>Цена тура + тренинга 25000$</h3> 
+    <h3>Цена тура + тренинга 25000 USD</h3> 
     <p>Авиаперелет оплачивается отдельно и<br> организуется индивидуальным консъержем</p>
    </div>
    <div class="slice" id="s_sls4">
@@ -551,7 +551,7 @@
    <div class="slice" id="s10s1">
     <h2>Готовы поехать с нами в один из туров?</h2>
    </div>
-   <div class="list s-visible" id="list1">
+   <!--div class="list" id="list1">
       <div class="slice" id="s10s2">
         <h3>Какую цель вы преследуете?</h3>
       </div>
@@ -568,7 +568,7 @@
         </div>
       </div>
     </div>
-    <!--div class="list nvis" id="list2">
+    <div class="list nvis" id="list2">
       <div class="slice" id="s10s2n2">
         <h3>Для достижения цели вы готовы…</h3>
       </div>
@@ -582,7 +582,7 @@
         <a href="" class="back_b">назад</a>
       </div>
     </div-->
-    <div class="list nvis" id="list3">
+    <div class="list s-visible" id="list3">
       <div class="slice" id="s10s2n3">
         <h3>Оставьте свои контактные данные и попадите на закрытую встречу,<br>
 где Вы узнаете условия, точное время и место поездки</h3>
@@ -596,9 +596,9 @@
     </form>
    </div>
       </div>
-      <div class="slice s10s5">
+      <!--div class="slice s10s5">
         <a href="" class="back_b2">назад</a>
-      </div>
+      </div-->
     </div>
     <!--div class="list nvis" id="list4">
       <div class="slice" id="s10s2n4">
@@ -622,31 +622,31 @@
  <section class="sec11 section" id="sec11">
   <div class="wrap">
    <div class="slice" id="s11s1">
-    <h2>Отзывы о работе с<br>Алексеем Ситниковым</h2>
+    <h2>Выступление Алексея Ситникова<br> на тему судьбы</h2>
    </div>
    <div class="slice" id="s11s2">
     <div class="vid_otz">
      <div class="sld2w">
       <div id="sld2">
-       <div class="sld2sld sld2sld1" data-video="oSGfZQTPrM8"><a href="javascript:void(0)" class="play_v"></a></div>
-       <div class="sld2sld sld2sld2" data-video="oSGfZQTPrM8"><a href="javascript:void(0)" class="play_v"></a></div>
-       <div class="sld2sld sld2sld3" data-video="oSGfZQTPrM8"><a href="javascript:void(0)" class="play_v"></a></div>
+       <div class="sld2sld sld2sld1" data-video="Ap2wj9MRsjI"><a href="javascript:void(0)" class="play_v"></a></div>
+       <!--div class="sld2sld sld2sld2" data-video="oSGfZQTPrM8"><a href="javascript:void(0)" class="play_v"></a></div>
+       <div class="sld2sld sld2sld3" data-video="oSGfZQTPrM8"><a href="javascript:void(0)" class="play_v"></a></div-->
       </div>
      </div>
-     <a href="javascript:void(0)" class="str_lv"></a>
-     <a href="javascript:void(0)" class="str_rv"></a>
+     <!--a href="javascript:void(0)" class="str_lv"></a>
+     <a href="javascript:void(0)" class="str_rv"></a-->
     </div>
    </div>
    <div class="slice" id="s11s3">
-    <h3>Иванов Алексей <br>Руководитель компании «АСС»</h3>
+    <h3>Мастер-класс в Москве для молодых предпринимателей в рамках проекта "Миллион за 100" "Бизнес Молодости"</h3>
    </div>
-   <div class="slice" id="s11s4">
+   <!--div class="slice" id="s11s4">
     <div class="oval_gr">
      <a href="" data-slide-index="0"></a>
      <a href="" data-slide-index="1"></a>
      <a href="" data-slide-index="2"></a>
     </div>
-   </div>
+   </div-->
   </div>
  </section>
  <section class="sec12 section" id="sec12">

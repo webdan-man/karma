@@ -178,9 +178,9 @@ p{text-align:left}
 .tex h3.active span{width:14px;height:14px;background-color:#fff;border:3px solid #fff}
 .tex p{background:url(../img/done.png) no-repeat 0 0;padding-left:90px;min-height:68px;letter-spacing:.7px;margin-bottom:36px;color:#afafaf;font-family: 'Roboto', sans-serif;font-size:18px;font-weight:400;margin-top:19px;line-height:28px}
 .sec9{background:url(../img/bg_sec9.jpg) no-repeat top center;height:501px}
-.sec9 h2{color:#000;font-size:21px;line-height:31px;text-transform:none;letter-spacing:1.5px;padding:18px 100px;font-weight:400}
+.sec9 h2{color:#000;font-size:21px;line-height:31px;text-transform:none;letter-spacing:1.5px;padding: 18px 50px;font-weight:400;}
 .sec9 .wrap{max-width:1200px}
-.video{background:url(../img/video.jpg) no-repeat center;height:258px;width:100%;position:relative;margin-bottom:15px}
+.video{background:url(../img/video.jpg) no-repeat center;height:258px;width:100%;position:relative;margin-bottom: 20px;}
 .play{color:#fff;font-family:"Amazing Grotesk";font-size:16px;font-weight:400;line-height:43px;background:url(../img/play.png) no-repeat top center;padding-top:82px;position:absolute;letter-spacing:1.8px;top:50%;margin-top:-49px;left:50%;margin-left:-91px}
 .sec10{padding:25px 0;width:100%;min-height:566px;background-color:#0d1924}
 .sec10 h2{font-size:22px;text-transform:none;line-height:31px;letter-spacing:1.9px;margin-bottom:25px}
@@ -191,11 +191,11 @@ p{text-align:left}
 .form_gr a:hover{background-color:#fefefe;border:2px solid #fefefe;color:#0d1924}
 .sec11{background:url(../img/bg_sec11.jpg) no-repeat center;height:543px}
 .sec11 h2{font-size:22px;line-height:31px;text-transform:none;letter-spacing:.9px;margin:31px 0}
-.vid_otz{background:url(../img/vid_otz.jpg) no-repeat top center;height:270px;position:relative;background-size: cover;}
+.vid_otz{background: url(../img/vid.jpg) no-repeat top center;height:270px;position:relative;background-size: cover;}
 .play_v{background:url(../img/play_v.png) no-repeat top center;width:88px;height:67px;position:absolute;top:50%;margin-top:-36px;left:50%;margin-left:-44px}
 .str_lv{background:url(../img/str_lv.png) no-repeat top center;width:31px;height:103px;left:0;position:absolute;top:50%;margin-top:-52px}
 .str_rv{background:url(../img/str_rv.png) no-repeat top center;width:31px;height:103px;right:0;position:absolute;top:50%;margin-top:-52px}
-.sec11 h3{font-family:"Amazing Grotesk";font-size:17px;font-weight:400;line-height:28px;text-transform:uppercase;text-align:left;letter-spacing: 2.1px;padding: 21px 0px 21px 0px;display: inline-block;/* width: 375px; */}
+.sec11 h3{font-family:"Amazing Grotesk";font-size:17px;font-weight:400;line-height:28px;text-transform:uppercase;letter-spacing: 2.1px;padding: 21px 0px 21px 0px;display: inline-block;/* width: 375px; */text-align: center;}
 .oval_gr{height:16px;display:inline-block;vertical-align:middle}
 .oval_gr a{width:8px;height:8px;background-color:#fff;vertical-align:middle;display:inline-block;letter-spacing:0;-webkit-border-radius:4px;border-radius:4px;margin:4px 7px}
 .oval_gr a.active{width:16px;height:16px;border:2px solid #fff;-webkit-border-radius:8px;border-radius:8px;margin:0 3px;background:0}
