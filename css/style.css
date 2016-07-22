@@ -383,7 +383,7 @@ header{position:fixed;width:100%;margin:0 auto;height:100px;bottom:10.7%;z-index
 .str_rc {
     background: url(../img/str_rc.png) no-repeat top center;
 }
-#s_sls3{margin-top: 224.4px;top: 45.599999999999994%;}
+#s_sls3{margin-top: 224.4px;top: 45.599999999999994%;display: none;}
 #s11s4{margin-top:66px;top:84%}
 #s_sls3 h3{
 	font-size: 21px;
@@ -411,7 +411,10 @@ header{position:fixed;width:100%;margin:0 auto;height:100px;bottom:10.7%;z-index
 	line-height: 19px;
 	letter-spacing: 0.6px;
 }
-#s_sls4{margin-top: 277.2px;top: 48.8%;}
+#s_sls4 {
+	margin-top: 249.2px;
+	top: 47.8%;
+}
 #s_sls4 img{float: left;margin-left: 232px;}
 #s_sls4 h4 {
   font-size: 18px;
