@@ -26,7 +26,7 @@ $headers.= "X-Mailer: PHP/" . phpversion()."\r\n";
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 
-$to = "triowork2@gmail.com";
+$to = "karmalogic@mail.ru, triowork2@gmail.com, E.krivolutskaya@triangleconsulting.ru";
 
 $message = "Имя: $name\n";
 $message .= "Телефон: $phone\n";
